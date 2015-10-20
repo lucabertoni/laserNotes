@@ -7,7 +7,7 @@ Take your notes with laserNotes and share them on all your devices
 This is the Android App of laserNotes.
 
 ## Contributors
-Luca Bertoni (Server)  
+
 
 ## Info/Contacts:
 **Authors**: Luca Bertoni, Andrea Lucchini  

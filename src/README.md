@@ -2,11 +2,13 @@
 
 Take your notes with laserNotes and share them on all your devices
 
-## Desktop App
+## Server
 
-This is the Desktop App of laserNotes.
+This is the folder that contains source code of laserNotes.
 
 ## Contributors
+Luca Bertoni (Server)
+Andrea Lucchini (Web App)
 
 ## Info/Contacts:
 **Authors**: Luca Bertoni, Andrea Lucchini  

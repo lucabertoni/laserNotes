@@ -2,6 +2,15 @@
 
 Take your notes with laserNotes and share them on all your devices
 
+## Repository structure
+.
++-- src
+|   +-- README.md
++-- _drafts
+|   +-- begin-with-the-crazy-ideas.textile
+|   +-- on-simplicity-in-technology.markdown
+
+
 ## Contributors
 Luca Bertoni (Server)  
 Andrea Lucchini (Web App)
