@@ -3,7 +3,7 @@
 Take your notes with laserNotes and share them on all your devices
 
 ## Contributors
-Luca Bertoni (Server)
+Luca Bertoni (Server)  
 Andrea Lucchini (Web App)
 
 ## Info/Contacts:
