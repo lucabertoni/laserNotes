@@ -3,7 +3,8 @@
 Take your notes with laserNotes and share them on all your devices
 
 ## Repository structure
-.
+```
+.  
 +-- LICENSE  
 +-- README.md  
 +-- src  
@@ -16,6 +17,7 @@ Take your notes with laserNotes and share them on all your devices
 |   	+-- README.md  
 |   +-- Web App  
 |   	+-- README.md  
+```
 
 ## Contributors
 Luca Bertoni (Server)  
