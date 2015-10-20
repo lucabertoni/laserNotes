@@ -4,12 +4,18 @@ Take your notes with laserNotes and share them on all your devices
 
 ## Repository structure
 .
-+-- src
-|   +-- README.md
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-
++-- LICENSE  
++-- README.md  
++-- src  
+|   +-- Android App  
+|   	+-- README.md  
+|   +-- Desktop App  
+|   	+-- README.md  
+|   +-- README.md  
+|   +-- server  
+|   	+-- README.md  
+|   +-- Web App  
+|   	+-- README.md  
 
 ## Contributors
 Luca Bertoni (Server)  
