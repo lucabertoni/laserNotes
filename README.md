@@ -26,6 +26,6 @@ Andrea Lucchini (Web App)
 **Version**: 0.1-dev  
 **Contacts**:  
 
-	Email: luca.bertoni24@gmail.com
+	Email: luca.bertoni24@gmail.com  
 
 	Facebook: https://www.facebook.com/LucaBertoniLucaBertoni
