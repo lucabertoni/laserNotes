@@ -2,7 +2,7 @@
 
 Take your notes with laserNotes and share them on all your devices
 
-## Server
+## Src
 
 This is the folder that contains source code of laserNotes.
 
