@@ -6,16 +6,18 @@ Take your notes with laserNotes and share them on all your devices
 ```
 .
 ├── LICENSE
+├── Protocollo.odt
 ├── README.md
 └── src
     ├── Android App
     │   ├── README.md
     ├── Desktop App
     │   ├── README.md
-    ├── Protocollo.odt
     ├── README.md
     ├── server
     │   ├── classes
+    │   │   ├── Database.py
+    │   │   ├── LaserNotes.py
     │   │   ├── LogBuffer.py
     │   │   ├── Server.py
     │   │   └── Socket.py
@@ -27,6 +29,11 @@ Take your notes with laserNotes and share them on all your devices
         ├── README.md
 
 ```
+
+## Requirements
+* Linux
+* Python3
+* PyMySQL
 
 ## Contributors
 Luca Bertoni (Server)  
