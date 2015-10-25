@@ -1,24 +1,56 @@
-INFO    | Elaboro richiesta da: 127.0.0.1:57595
+INFO    | Elaboro richiesta da: 127.0.0.1:41245
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:57596
+INFO    | Elaboro richiesta da: 127.0.0.1:41246
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:57597
+INFO    | Elaboro richiesta da: 127.0.0.1:41247
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:57598
+INFO    | Elaboro richiesta da: 127.0.0.1:41248
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:57599
+INFO    | Elaboro richiesta da: 127.0.0.1:41249
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:57600
+INFO    | Elaboro richiesta da: 127.0.0.1:41250
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41251
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41252
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41254
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41255
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41296
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41305
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41306
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:41307
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
