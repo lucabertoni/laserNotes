@@ -3,12 +3,14 @@ import os
 import json
 from settings import *
 from classes.LogBuffer import LogBuffer
+from classes.LaserNotes import LaserNotes
 
 class Server():
 	"""Classe che gestice il server di laserNotes"""
 	def __init__(self):
 		self.oSocket = Socket(HOST,PORT)
 		self.oSocket.listen()
+		self.oLN = LaserNotes()
 	
 	def parse(self,aData,oSock):
 		"""
@@ -24,9 +26,11 @@ class Server():
 		bRet = False
 
 		sComando = aData['sComando'].upper()
+		del aData['sComando']
 
 		if sComando == 'LOGIN':
-			pass
+			aRisultato = self.oLN.login(aData)
+			print(aRisultato)
 
 		return bRet
 
@@ -41,7 +45,7 @@ class Server():
 		"""
 		bRet = False
 		print("Elaboro...")
-
+		
 		LogBuffer.write("Elaboro richiesta da: {0}:{1}".format(oClient[1][0],oClient[1][1]),1)
 		
 		sData = self.oSocket.recv(oClient,MSGLEN)
