@@ -4,19 +4,28 @@ Take your notes with laserNotes and share them on all your devices
 
 ## Repository structure
 ```
-.  
-+-- LICENSE  
-+-- README.md  
-+-- src  
-|   +-- Android App  
-|   	+-- README.md  
-|   +-- Desktop App  
-|   	+-- README.md  
-|   +-- README.md  
-|   +-- server  
-|   	+-- README.md  
-|   +-- Web App  
-|   	+-- README.md  
+.
+├── LICENSE
+├── README.md
+└── src
+    ├── Android App
+    │   ├── README.md
+    ├── Desktop App
+    │   ├── README.md
+    ├── Protocollo.odt
+    ├── README.md
+    ├── server
+    │   ├── classes
+    │   │   ├── LogBuffer.py
+    │   │   ├── Server.py
+    │   │   └── Socket.py
+    │   ├── laserNotes-server.log
+    │   ├── README.md
+    │   ├── server.py
+    │   └── settings.py
+    └── Web App
+        ├── README.md
+
 ```
 
 ## Contributors
