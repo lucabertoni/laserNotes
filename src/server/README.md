@@ -3,8 +3,12 @@
 Take your notes with laserNotes and share them on all your devices
 
 ## Server
-
 This is the server that manages laserNotes.
+
+## Requirements
+* Linux  
+* Python3  
+* PyMySQL
 
 ## Contributors
 Luca Bertoni (Server)  

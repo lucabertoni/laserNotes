@@ -31,9 +31,6 @@ Take your notes with laserNotes and share them on all your devices
 ```
 
 ## Requirements
-* Linux
-* Python3
-* PyMySQL
 
 ## Contributors
 Luca Bertoni (Server)  
