@@ -23,7 +23,7 @@ class LaserNotes():
 		aRet = {'sRisultato':"NO","sCookie":""}
 
 		try:
-			oDB = Database(HOST,DBUSER,DBPASSWORD,DBNAME)
+			oDB = Database(DBHOST,DBUSER,DBPASSWORD,DBNAME)
 		except Exception as e:
 			LogBuffer.write("Errore durante la connessione al database: {0}".format(e),3)
 			return aRet
@@ -49,6 +49,50 @@ class LaserNotes():
 			aRet["sCookie"] = sCookie
 			aRet["sRisultato"] = "OK"
 
+		return aRet
+
+	def addUser(self, aData):
+		"""
+			Cosa fa				:				Aggiunge un utente in db. Se l'email è già presente non fa nulla
+			aData				:				dizionario, dati dell'utente da aggiungere, così formato:
+													["sNome"] => "Luca"
+													["sCognome"] => "Bertoni"
+													["sEmail"] => "luca.bertoni24@gmail.com"
+													["sUsername"] => "lucabertoni"
+													["sPassword"] => "9be11166d72e9e3ae7fd407165e4bd2" (md5(md5("root")))
+													["nLivello"] => 1		1 = Utente Normale | 2 = Tester | 3 = Amministratoreù
+			Ritorna				:				aRet -> dizionario, risposta da inviare al client, così formato:
+													["sRisultato"] => "OK" | "NO"
+		"""
+		aRet = {'sRisultato':"NO"}
+
+		if aData == None:
+			return aRet
+
+		try:
+			oDB = Database(DBHOST,DBUSER,DBPASSWORD,DBNAME)
+		except Exception as e:
+			LogBuffer.write("Errore durante la connessione al database: {0}".format(e),3)
+			return aRet
+
+		"""
+			Cosa fa				:				Esegue una semplice insert su una tabella
+			aWhat				:				tupla, quali campi usare per l'insert, così formata:
+													[0] => "sUsername"
+													[1] => "sPassword"
+													...
+			sTabella			:				stringa, nome della tabella sulla quale eseguire la query
+			aData				:				dizionario, campi per insert con chiavi corrispondenti ai campi aWhat, es:
+													['sUsername'] => "Luca"
+													['sPassword'] => "Bertoni"
+			Ritorna				:				bRet -> logico, true = Insert OK | false = Errore
+		"""
+		bInsert = oDB.insert(("sNome","sCognome","sEmail","sUsername","sPassword","nLivello"),"utenti",aData)
+
+		if bInsert:
+			aRet["sRisultato"] = "OK"
+			
+		oDB.close()
 		return aRet
 
 	def cookie_encode(self,nId):

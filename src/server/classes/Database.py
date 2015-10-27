@@ -3,13 +3,13 @@ import pymysql.cursors
 class Database():
 	"""Classe che gestisce la connesione al database"""
 	def __init__(self,sHost,sUser,sPassword,sDbName):
-		oConnection = pymysql.connect(host=sHost,
+		self.oConnection = pymysql.connect(host=sHost,
 		                             user=sUser,
 		                             password=sPassword,
 		                             db=sDbName,
 		                             charset='utf8mb4',
 		                             cursorclass=pymysql.cursors.DictCursor)
-		self.oCursor = oConnection.cursor()
+		self.oCursor = self.oConnection.cursor()
 
 	def select(self,aWhat = ("*"),sTabella = "",aWhere = {}):
 		"""
@@ -59,6 +59,62 @@ class Database():
 			pass
 
 		return aRet
+
+	def insert(self, aWhat = (""), sTabella = "", aData = {}):
+		"""
+			Cosa fa				:				Esegue una semplice insert su una tabella
+			aWhat				:				tupla, quali campi usare per l'insert, così formata:
+													[0] => "sUsername"
+													[1] => "sPassword"
+													...
+			sTabella			:				stringa, nome della tabella sulla quale eseguire la query
+			aData				:				dizionario, campi per insert con chiavi corrispondenti ai campi aWhat, es:
+													['sUsername'] => "Luca"
+													['sPassword'] => "Bertoni"
+			Ritorna				:				bRet -> logico, true = Insert OK | false = Errore
+		"""
+		bRet = False
+		sSql = "INSERT INTO " + sTabella + " ("
+
+		# Compongo i campi da cercare
+		for x in aWhat:
+			sSql += x + ","
+
+		# Cancello la virgola finale
+		sSql = sSql[:-1]
+
+		sSql += ") VALUES ("
+
+		for x in aWhat:
+			ele = aData[x]
+
+			# Se è un numero non metto gli apici
+			if ele.isnumeric():
+				sSql += " " + ele + ","
+			else:
+				sSql += " " + "'" + ele + "',"
+
+		# Cancello la virgola finale
+		sSql = sSql[:-1]
+
+		sSql += ")"
+		
+		print(sSql)
+
+		try:
+			bRet = self.oCursor.execute(sSql) # Eseguo la sql
+			self.oConnection.commit() # Eseguo il commit dell'insert
+		except Exception as e:
+			bRet = False
+
+		return bRet
+
+	def close(self):
+		"""
+			Cosa fa				:				Chiude la comunicazione con il db
+		"""
+		self.oConnection.close()
+
 """
 import pymysql.cursors
 

@@ -6,4 +6,4 @@ LOG = 1
 DBNAME = "laserNotes"
 DBUSER = "root"
 DBPASSWORD = "root"
-HOST = "localhost"
+DBHOST = "localhost"

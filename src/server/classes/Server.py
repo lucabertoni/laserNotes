@@ -32,6 +32,10 @@ class Server():
 			aRisultato = self.oLN.login(aData) # Effettuo il login
 			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
 			bRet = True
+		elif sComando == 'ADDUSER':
+			aRisultato = self.oLN.addUser(aData) # Effettuo il login
+			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
+			bRet = True
 
 		return bRet
 

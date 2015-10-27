@@ -1,121 +1,66 @@
-INFO    | Elaboro richiesta da: 127.0.0.1:50691
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50695
-INFO    | 127.0.0.1 dice: 
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50697
-INFO    | 127.0.0.1 dice: 
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50699
-INFO    | 127.0.0.1 dice: 
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50701
-INFO    | 127.0.0.1 dice: 
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50703
-INFO    | 127.0.0.1 dice: 
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50705
-INFO    | 127.0.0.1 dice: 
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50706
-INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50709
-INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50712
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50715
-INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50718
-INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50721
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50724
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50727
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50730
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50733
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:50737
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50740
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50743
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50746
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50749
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50752
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50755
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50758
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50761
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50764
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50767
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50770
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50773
-INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50776
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni", "sComando": "LOGIN"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
-INFO    | Elaboro richiesta da: 127.0.0.1:50779
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a041211511d3b1866f0636
-INFO    | Elaboro richiesta da: 127.0.0.1:50782
 INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
 INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
-INFO    | Elaboro richiesta da: 127.0.0.1:50785
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni", "sComando": "LOGIN"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
-INFO    | Elaboro richiesta da: 127.0.0.1:50789
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni"}
-INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+INFO    | Elaboro richiesta da: 127.0.0.1:50828
+INFO    | 127.0.0.1 dice: {"sCognome": "Bertoni", "sEmail": "luca.bertoni24@gmail.com", "sUsername": "lucabertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Luca", "nLivello": 1}
+INFO    | Elaboro richiesta da: 127.0.0.1:50829
+INFO    | 127.0.0.1 dice: {"sUsername": "lucabertoni", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "nLivello": 1, "sCognome": "Bertoni", "sNome": "Luca", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50832
+INFO    | 127.0.0.1 dice: {"nLivello": 1, "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sUsername": "lucabertoni", "sNome": "Luca", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50835
+INFO    | 127.0.0.1 dice: {"sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni", "sNome": "Luca", "sCognome": "Bertoni", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "nLivello": "1"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50838
+INFO    | 127.0.0.1 dice: {"sUsername": "lucabertoni", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "luca.bertoni24@gmail.com", "sNome": "Luca", "sComando": "ADDUSER", "sCognome": "Bertoni"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50841
+INFO    | 127.0.0.1 dice: {"sCognome": "Bertoni", "nLivello": "1", "sNome": "Luca", "sComando": "ADDUSER", "sUsername": "lucabertoni", "sEmail": "luca.bertoni24@gmail.com", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50844
+INFO    | 127.0.0.1 dice: {"sNome": "Luca", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni", "sComando": "ADDUSER", "sCognome": "Bertoni", "sEmail": "luca.bertoni24@gmail.com"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50847
+INFO    | 127.0.0.1 dice: {"nLivello": "1", "sEmail": "luca.bertoni24@gmail.com", "sUsername": "lucabertoni", "sComando": "ADDUSER", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Luca"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50850
+INFO    | 127.0.0.1 dice: {"sUsername": "lucabertoni", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Luca", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "nLivello": "1"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50853
+INFO    | 127.0.0.1 dice: {"sNome": "Luca", "sComando": "ADDUSER", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sUsername": "lucabertoni"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50856
+INFO    | 127.0.0.1 dice: {"sEmail": "luca.bertoni24@gmail.com", "sComando": "ADDUSER", "sCognome": "Bertoni", "sNome": "Luca", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50860
+INFO    | 127.0.0.1 dice: {"nLivello": "1", "sNome": "Luca", "sUsername": "lucabertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sComando": "ADDUSER"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53149
+INFO    | 192.168.0.183 dice: {"nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni", "sNome": "Luca", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '192.168.0.183' ([Errno 111] Connection refused)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53153
+INFO    | 192.168.0.183 dice: {"sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sCognome": "Bertoni", "sNome": "Luca", "sEmail": "luca.bertoni24@gmail.com", "sComando": "ADDUSER", "sUsername": "lucabertoni"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53154
+INFO    | 192.168.0.183 dice: {"sUsername": "lucabertoni", "nLivello": "1", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Bertoni", "sNome": "Luca"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53155
+INFO    | 192.168.0.183 dice: {"sComando": "ADDUSER", "sNome": "Luca", "sEmail": "luca.bertoni24@gmail.com", "sUsername": "lucabertoni", "sCognome": "Bertoni", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53156
+INFO    | 192.168.0.183 dice: {"sUsername": "lucabertoni", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sComando": "ADDUSER", "sNome": "Luca", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53222
+INFO    | 192.168.0.183 dice: {"sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sComando": "ADDUSER", "sUsername": "lucabertoni", "sNome": "Luca"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53233
+INFO    | 192.168.0.183 dice: {"sEmail": "luca.bertoni24@gmail.com", "sNome": "Luca", "sCognome": "Bertoni", "sUsername": "lucabertoni", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53236
+INFO    | 192.168.0.183 dice: {"sNome": "Luca", "sEmail": "luca.bertoni24@gmail.com", "nLivello": "1", "sCognome": "Bertoni", "sComando": "ADDUSER", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53248
+INFO    | 192.168.0.183 dice: {"sUsername": "lucabertoni", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sNome": "Luca", "nLivello": "1", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53259
+INFO    | 192.168.0.183 dice: {"nLivello": "1", "sNome": "Andrea", "sUsername": "andrealucchini", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sEmail": "booh@gmail.com"}
+INFO    | Richiesta elaborata correttamente
