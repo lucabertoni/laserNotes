@@ -99,8 +99,6 @@ class Database():
 
 		sSql += ")"
 		
-		print(sSql)
-
 		try:
 			bRet = self.oCursor.execute(sSql) # Eseguo la sql
 			self.oConnection.commit() # Eseguo il commit dell'insert

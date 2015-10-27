@@ -51,11 +51,11 @@ class Server():
 		bRet = False
 		print("Elaboro...")
 		
-		LogBuffer.write("Elaboro richiesta da: {0}:{1}".format(oClient[1][0],oClient[1][1]),1)
+		LogBuffer.write("Elaboro richiesta da: {0}:{1}".format(oClient[1][0],oClient[1][1]),4)
 		
 		sData = self.oSocket.recv(oClient,MSGLEN)
 
-		LogBuffer.write("{0} dice: {1}".format(oClient[1][0],sData),1)
+		LogBuffer.write("{0} dice: {1}".format(oClient[1][0],sData),4)
 
 		if sData == "":
 			return bRet

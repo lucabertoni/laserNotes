@@ -49,6 +49,8 @@ class LaserNotes():
 			aRet["sCookie"] = sCookie
 			aRet["sRisultato"] = "OK"
 
+
+		oDB.close()
 		return aRet
 
 	def addUser(self, aData):
@@ -91,7 +93,8 @@ class LaserNotes():
 
 		if bInsert:
 			aRet["sRisultato"] = "OK"
-			
+			LogBuffer.write("Aggiungo utente: Username = {0}".format(aData["sUsername"]),1)
+
 		oDB.close()
 		return aRet
 

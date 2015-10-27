@@ -16,7 +16,7 @@ while 1:
 		if not bOk:
 			LogBuffer.write("Errore durante l'elaborazione della richiesta",3)
 		else:
-			LogBuffer.write("Richiesta elaborata correttamente",1)
+			LogBuffer.write("Richiesta elaborata correttamente",4)
 
 
 		# Termino l'esecuzione del processo
