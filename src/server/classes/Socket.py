@@ -50,6 +50,7 @@ class Socket():
 	def bind(self):
 		sHost = self.getHost()
 		nPort = self.getPort()
+
 		self.SOCKET.bind((sHost, nPort))
 	
 	def listen(self):
@@ -57,7 +58,7 @@ class Socket():
 			Cosa fa				:				Ascolta e aspetta che ci siano dei dati.
 			Ritorna				:				sMsg -> stringa, messaggio
 		"""
-		self.SOCKET.listen(1)
+		self.SOCKET.listen(5)
 
 	def accept(self):
 		"""

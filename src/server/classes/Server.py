@@ -29,8 +29,9 @@ class Server():
 		del aData['sComando']
 
 		if sComando == 'LOGIN':
-			aRisultato = self.oLN.login(aData)
-			print(aRisultato)
+			aRisultato = self.oLN.login(aData) # Effettuo il login
+			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
+			bRet = True
 
 		return bRet
 

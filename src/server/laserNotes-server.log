@@ -1,70 +1,121 @@
-INFO    | Elaboro richiesta da: 127.0.0.1:42483
+INFO    | Elaboro richiesta da: 127.0.0.1:50691
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50695
+INFO    | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50697
+INFO    | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50699
+INFO    | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50701
+INFO    | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50703
+INFO    | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50705
+INFO    | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50706
 INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42486
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50709
+INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42489
+INFO    | Elaboro richiesta da: 127.0.0.1:50712
 INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42495
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50715
+INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42499
+INFO    | Elaboro richiesta da: 127.0.0.1:50718
 INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42565
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "luca.bertoni24@gmail.com"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50721
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42568
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "luca.bertoni24@gmail.com"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50724
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42571
-INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50727
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42574
-INFO    | 127.0.0.1 dice: {"sUser": "marco.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50730
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42577
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "marco.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50733
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42581
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "marco.bertoni24@gmail.com"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42586
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "marco.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-INFO    | Elaboro richiesta da: 127.0.0.1:42589
-INFO    | 127.0.0.1 dice: {"sUser": "marco.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42592
-INFO    | 127.0.0.1 dice: {"sUser": "marco.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42595
-INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "luca.bertoni24@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42599
-INFO    | 127.0.0.1 dice: {"sPassword": "a9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "luca.bertoni24@gmail.com"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42602
-INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "luca.bertoni24@gmail.com"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
-INFO    | Elaboro richiesta da: 127.0.0.1:42605
-INFO    | 127.0.0.1 dice: {"sUser": "luca.bertoni24@gmail.com", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
-ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
-ERROR   | Errore durante l'elaborazione della richiesta
+INFO    | Elaboro richiesta da: 127.0.0.1:50737
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50740
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50743
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50746
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50749
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50752
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50755
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50758
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50761
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50764
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50767
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50770
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50773
+INFO    | 127.0.0.1 dice: {"sUser": "lucabertoni", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50776
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni", "sComando": "LOGIN"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a0411511d3b1866f063612
+INFO    | Elaboro richiesta da: 127.0.0.1:50779
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sUser": "lucabertoni", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041211511d3b1866f0636
+INFO    | Elaboro richiesta da: 127.0.0.1:50782
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+INFO    | Elaboro richiesta da: 127.0.0.1:50785
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni", "sComando": "LOGIN"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+INFO    | Elaboro richiesta da: 127.0.0.1:50789
+INFO    | 127.0.0.1 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
