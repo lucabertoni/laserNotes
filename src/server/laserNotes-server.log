@@ -108,3 +108,59 @@ DEBUG   | Elaboro richiesta da: 192.168.0.183:53354
 DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "nLivello": "1", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sComando": "ADDUSER"}
 INFO    | Aggiungo utente: Username = andrealucchini
 DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50378
+DEBUG   | 192.168.0.228 dice: Messaggio di prova
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50405
+DEBUG   | 192.168.0.228 dice: "Messaggio di prov
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50411
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50681
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50691
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50692
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50697
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50710
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50722
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50733
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50735
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50746
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50758
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50760
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50771
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
