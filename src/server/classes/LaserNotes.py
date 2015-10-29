@@ -20,7 +20,7 @@ class LaserNotes():
 		"""
 		sUser = aData['sUser']
 		sPassword = aData['sPassword']
-		aRet = {'sRisultato':"NO","sCookie":""}
+		aRet = {'sRisultato':"NO"}
 
 		try:
 			oDB = Database(DBHOST,DBUSER,DBPASSWORD,DBNAME)
