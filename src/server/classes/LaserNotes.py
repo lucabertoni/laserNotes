@@ -125,7 +125,6 @@ class LaserNotes():
 		"""
 		sRet = ""
 
-		nId = 1
 		sApp = hashlib.md5(hashlib.md5(str(nId).encode()).hexdigest().encode()).hexdigest()
 
 		sRet = sApp[:16] + str(nId*12) + sApp[16:]

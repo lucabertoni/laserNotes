@@ -254,3 +254,54 @@ DEBUG   | Richiesta elaborata correttamente
 DEBUG   | Elaboro richiesta da: 192.168.0.183:51390
 DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "nLivello": "1", "sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
 DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:52235
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "andrealucchini", "sNome": "Andrea"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59199
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59210
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"sadf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59224
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"sadf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59236
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"74be16979710d4c4e7c6647856088456"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59241
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59249
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"awqs","sPassword":"7e008dcaf234f81f2c77776934205db5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59258
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"awqs","sPassword":"7e008dcaf234f81f2c77776934205db5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59269
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59277
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59295
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53640
+DEBUG   | 192.168.0.183 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni", "sComando": "LOGIN"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53643
+DEBUG   | 192.168.0.183 dice: {"sUser": "andrealucchini", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53646
+DEBUG   | 192.168.0.183 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "andrealucchini"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53649
+DEBUG   | 192.168.0.183 dice: {"sComando": "LOGIN", "sUser": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
