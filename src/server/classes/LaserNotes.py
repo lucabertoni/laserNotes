@@ -77,6 +77,25 @@ class LaserNotes():
 			LogBuffer.write("Errore durante la connessione al database: {0}".format(e),3)
 			return aRet
 
+
+		# Cosa fa				:				Esegue una semplice select su una tabella
+		# aWhat					:				tupla, quali campi estrarre, così formata:
+		#										[0] => "sUsername"
+		#										[1] => "sPassword"
+		#										...
+		# sTabella				:				stringa, nome della tabella sulla quale eseguire la query
+		# aWhere				:				dizionario, campi per where, es:
+		#										['sNome'] => "Luca"
+		#										['sCognome'] => "Bertoni"
+		# Ritorna				:				aRet -> dizionario, lista di elementi estratti con la select, così formato:
+		#										["sUsername"] => "luca.bertoni24@gmail.com"
+		#										["sPassword"] => "b9be11166d72e9e3ae7fd407165e4bd2"
+		aSelect = oDB.select(("id",),"utenti",{"sEmail" : aData["sEmail"]})
+
+		# Se l'utente esiste già non lo inserisco
+		if not(aSelect == None) > 0:
+			return aRet
+
 		"""
 			Cosa fa				:				Esegue una semplice insert su una tabella
 			aWhat				:				tupla, quali campi usare per l'insert, così formata:

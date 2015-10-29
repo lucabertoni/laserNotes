@@ -164,3 +164,93 @@ DEBUG   | Elaboro richiesta da: 192.168.0.228:50771
 DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
 ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
 ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51295
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sCognome": "Lucchini", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51298
+DEBUG   | 192.168.0.183 dice: {"sEmail": "booh@gmail.com", "nLivello": "1", "sCognome": "Lucchini", "sNome": "Andrea", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51301
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sNome": "Andrea", "sUsername": "andrealucchini", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51305
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sComando": "ADDUSER", "sNome": "Andrea", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51308
+DEBUG   | 192.168.0.183 dice: {"sEmail": "booh@gmail.com", "sComando": "ADDUSER", "nLivello": "1", "sNome": "Andrea", "sCognome": "Lucchini", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51314
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sUsername": "andrealucchini", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51317
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sNome": "Andrea", "sEmail": "booh@gmail.com"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51321
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sUsername": "andrealucchini", "sNome": "Andrea", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51327
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sNome": "Andrea", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sUsername": "andrealucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51330
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sUsername": "andrealucchini", "nLivello": "1", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51334
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "andrealucchini", "sNome": "Andrea", "sEmail": "booh@gmail.com", "nLivello": "1"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51338
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "sComando": "ADDUSER", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "nLivello": "1", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51341
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sNome": "Andrea", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51347
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sComando": "ADDUSER", "sNome": "Andrea", "nLivello": "1", "sEmail": "booh@gmail.com"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51350
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sNome": "Andrea", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51356
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sUsername": "andrealucchini", "nLivello": "1"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51359
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea", "sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51365
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "nLivello": "1", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51368
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sCognome": "Lucchini", "sUsername": "andrealucchini", "sComando": "ADDUSER", "sNome": "Andrea", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51371
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER", "sUsername": "andrealucchini", "nLivello": "1"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51374
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "sComando": "ADDUSER", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sEmail": "booh@gmail.com", "nLivello": "1"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51377
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sUsername": "andrealucchini", "sComando": "ADDUSER", "sCognome": "Lucchini"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51381
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sNome": "Andrea", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51384
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51387
+DEBUG   | 192.168.0.183 dice: {"sEmail": "booh@gmail.com", "sComando": "ADDUSER", "sCognome": "Lucchini", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sNome": "Andrea"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51390
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "nLivello": "1", "sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Richiesta elaborata correttamente
