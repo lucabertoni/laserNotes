@@ -16,7 +16,7 @@ class LaserNotes():
 											["sPassword"] => "b9be11166d72e9e3ae7fd407165e4bd2" (md5(md5("root")))
 			Ritorna			:			aRet -> dizionario, risposta da inviare al client, così formato:
 											["sRisultato"] => "OK" | "NO"
-											["sCookie"] => "ahsdj" | ""
+											["sCookie"] => "28c8edde3d61a041121511d3b1866f0636" | ""
 		"""
 		sUser = aData['sUser']
 		sPassword = aData['sPassword']
@@ -48,7 +48,6 @@ class LaserNotes():
 			LogBuffer.write("Effettuo login con cookie: {0}".format(sCookie),1)
 			aRet["sCookie"] = sCookie
 			aRet["sRisultato"] = "OK"
-
 
 		oDB.close()
 		return aRet
@@ -117,6 +116,92 @@ class LaserNotes():
 		oDB.close()
 		return aRet
 
+	def getUsername(self,aData):
+		"""
+			Cosa fa			:			Estrapola il nome utente di un utente
+			aData			:			dizionario, cookie dell'utente, così formato
+											["sCookie"] => "28c8edde3d61a041121511d3b1866f0636"
+			Ritorna			:			aRet -> dizionario, risposta da inviare al client, così formato:
+											["sRisultato"]	=> "OK" | "NO"
+											["sUsername]	=> "lucabertoni"
+		"""
+		sCookie = aData['sCookie']
+		aRet = {'sRisultato':"NO"}
+
+		nId = self.cookie_decode(sCookie)
+
+		try:
+			oDB = Database(DBHOST,DBUSER,DBPASSWORD,DBNAME)
+		except Exception as e:
+			LogBuffer.write("Errore durante la connessione al database: {0}".format(e),3)
+			return aRet
+
+		# Cosa fa				:				Esegue una semplice select su una tabella
+		# aWhat					:				tupla, quali campi estrarre, così formata:
+		#										[0] => "sUsername"
+		#										[1] => "sPassword"
+		#										...
+		# sTabella				:				stringa, nome della tabella sulla quale eseguire la query
+		# aWhere				:				dizionario, campi per where, es:
+		#										['sNome'] => "Luca"
+		#										['sCognome'] => "Bertoni"
+		# Ritorna				:				aRet -> dizionario, lista di elementi estratti con la select, così formato:
+		#										["sUsername"] => "luca.bertoni24@gmail.com"
+		#										["sPassword"] => "b9be11166d72e9e3ae7fd407165e4bd2"
+		aSelect = oDB.select(("sUsername",),"utenti",{"id" : str(nId)})
+
+		# Se aRet non è None significa che l'username e la password sono corretti
+		if not(aSelect == None):
+			aRet["sUsername"] = aSelect["sUsername"]
+			aRet["sRisultato"] = "OK"
+
+		oDB.close()
+		return aRet
+	
+	def getAllUserInfo(self,aData):
+		"""
+			Cosa fa			:			Effettua il login all'interno di LaserNotes
+			aData			:			dizionario, valori necessari per effettuare il login (user, password), così formato
+											["sUser"] => "luca.bertoni24@gmail.com"
+											["sPassword"] => "b9be11166d72e9e3ae7fd407165e4bd2" (md5(md5("root")))
+			Ritorna			:			aRet -> dizionario, risposta da inviare al client, così formato:
+											["sRisultato"] => "OK" | "NO"
+											["sCookie"] => "28c8edde3d61a041121511d3b1866f0636" | ""
+		"""
+		sCookie = aData['sCookie']
+		aRet = {'sRisultato':"NO"}
+		nId = self.cookie_decode(sCookie)
+
+		try:
+			oDB = Database(DBHOST,DBUSER,DBPASSWORD,DBNAME)
+		except Exception as e:
+			LogBuffer.write("Errore durante la connessione al database: {0}".format(e),3)
+			return aRet
+
+		# Cosa fa				:				Esegue una semplice select su una tabella
+		# aWhat					:				tupla, quali campi estrarre, così formata:
+		#										[0] => "sUsername"
+		#										[1] => "sPassword"
+		#										...
+		# sTabella				:				stringa, nome della tabella sulla quale eseguire la query
+		# aWhere				:				dizionario, campi per where, es:
+		#										['sNome'] => "Luca"
+		#										['sCognome'] => "Bertoni"
+		# Ritorna				:				aRet -> dizionario, lista di elementi estratti con la select, così formato:
+		#										["sUsername"] => "luca.bertoni24@gmail.com"
+		#										["sPassword"] => "b9be11166d72e9e3ae7fd407165e4bd2"
+		aSelect = oDB.select(("*",),"utenti",{"id" : str(nId)})
+
+		# Se aRet non è None significa che l'username e la password sono corretti
+		if not(aSelect == None):
+			sCookie = self.cookie_encode(aSelect["id"])
+			for key in aSelect:
+				aRet[key] = aSelect[key]
+			aRet["sRisultato"] = "OK"
+
+		oDB.close()
+		return aRet
+
 	def cookie_encode(self,nId):
 		"""
 			Cosa fa				:				Genera un cookie sulla base dell'id
@@ -138,6 +223,6 @@ class LaserNotes():
 		"""
 		nId = -1
 
-		nId = int(sCookie[16:-16])
+		nId = int(int(sCookie[16:-16])/12)
 
 		return nId

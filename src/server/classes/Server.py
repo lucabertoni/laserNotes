@@ -33,7 +33,15 @@ class Server():
 			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
 			bRet = True
 		elif sComando == 'ADDUSER':
-			aRisultato = self.oLN.addUser(aData) # Effettuo il login
+			aRisultato = self.oLN.addUser(aData) # Aggiungo l'utente
+			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
+			bRet = True
+		elif sComando == 'GETUSERNAME':
+			aRisultato = self.oLN.getUsername(aData) # Estrapolo in nome utente
+			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
+			bRet = True
+		elif sComando == 'GETALLUSERINFO':
+			aRisultato = self.oLN.getAllUserInfo(aData) # Estraggo tutte le informazioni dell'utente
 			oSock.sendall(json.dumps(aRisultato).encode("utf-8")) # Invio la risposta al client
 			bRet = True
 

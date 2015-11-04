@@ -51,7 +51,6 @@ class Database():
 					
 			# Cancello l' "AND" finale
 			sSql = sSql[:-3]
-
 		try:
 			self.oCursor.execute(sSql)
 			aRet = self.oCursor.fetchone()

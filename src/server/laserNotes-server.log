@@ -72,24 +72,16 @@ DEBUG   | Elaboro richiesta da: 192.168.0.183:53316
 DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "nLivello": "1", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
 INFO    | Aggiungo utente: Username = andrealucchini
 INFO    | Richiesta elaborata correttamente
-
-
 Elaboro richiesta da: 192.168.0.183:53319
 192.168.0.183 dice: {"sComando": "ADDUSER", "sNome": "Andrea", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sEmail": "booh@gmail.com"}
 INFO    | Aggiungo utente: Username = andrealucchini
 INFO    | Richiesta elaborata correttamente
 INFO    | Aggiungo utente: Username = andrealucchini
 INFO    | Richiesta elaborata correttamente
-
-
-
 INFO    | Aggiungo utente: Username = andrealucchini
 INFO    | Richiesta elaborata correttamente
-
 DEBUG   | Elaboro richiesta da: 192.168.0.183:53333
 DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sNome": "Andrea", "sComando": "ADDUSER", "sEmail": "booh@gmail.com"}
-
-
 DEBUG   | Elaboro richiesta da: 192.168.0.183:53344
 DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER", "nLivello": "1"}
 INFO    | Aggiungo utente: Username = andrealucchini
@@ -97,13 +89,9 @@ INFO    | Richiesta elaborata correttamente
 DEBUG   | Elaboro richiesta da: 192.168.0.183:53347
 DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "nLivello": "1", "sCognome": "Lucchini"}
 INFO    | Aggiungo utente: Username = andrealucchini
-
-
 DEBUG   | Elaboro richiesta da: 192.168.0.183:53350
 DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini"}
 INFO    | Aggiungo utente: Username = andrealucchini
-
-
 DEBUG   | Elaboro richiesta da: 192.168.0.183:53354
 DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "nLivello": "1", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sComando": "ADDUSER"}
 INFO    | Aggiungo utente: Username = andrealucchini
@@ -492,4 +480,57 @@ DEBUG   | Richiesta elaborata correttamente
 DEBUG   | Elaboro richiesta da: 192.168.0.228:51876
 DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
 INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:43774
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49298
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49309
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49313
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49320
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49325
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49341
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49346
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49383
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49387
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49390
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49393
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49397
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49406
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49410
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49413
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49418
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49526
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getAllUserInfo"}
 DEBUG   | Richiesta elaborata correttamente
