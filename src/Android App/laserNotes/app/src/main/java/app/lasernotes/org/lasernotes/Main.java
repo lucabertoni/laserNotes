@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Main extends AppCompatActivity {
 
@@ -48,5 +49,20 @@ public class Main extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void ButtonProva_onClick(View v){
+        TextView oText = (TextView) findViewById(R.id.textView);
+
+        Client oClient = new Client("localhost",52000);
+
+        /*
+        * Cosa fa           :           Effettua il login comunicando con l'host
+        * sUser             :           stringa, username per loggarsi
+        * sPassword         :           stringa, md5(md5(della password))
+        * Ritorna           :           sRet -> cookie generato dal server, oppure vuoto in caso di errore
+        * */
+        String sRet = oClient.login("lucabertoni","b9be11166d72e9e3ae7fd407165e4bd2");
+        oText.setText(sRet);
     }
 }

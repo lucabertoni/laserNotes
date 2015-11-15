@@ -1,7 +1,11 @@
 package app.lasernotes.org.lasernotes;
 
+import java.io.BufferedWriter;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.OutputStream;
+import java.io.PrintWriter;
 
 /**
  * Classe che gestisce la scrittura dei log
@@ -39,6 +43,12 @@ public class LogBuffer{
                 if(LOGLEVEL == 1 || LOGLEVEL == 5)  sLog = "DEBUG   | " + sMsg + "\n";
         }
 
-        // TODO: Scrivere all'interno del file di log
+        // Aggiungo il testo al file di log
+        // Per maggiori informazioni vedi: http://stackoverflow.com/questions/1625234/how-to-append-text-to-an-existing-file-in-java
+        try{
+            PrintWriter oPrint = new PrintWriter(new BufferedWriter(new FileWriter(LOGFILE, true)));
+            oPrint.println(sLog);
+        }catch (IOException e) {
+        }
     }
 }
