@@ -1,6 +1,7 @@
 package app.lasernotes.org.lasernotes;
 
 import java.net.Socket;
+import android.util.Log;
 
 import org.json.JSONObject;
 
@@ -31,9 +32,9 @@ public class Client {
         * nPort             :           numerico, numero della porta dell'host
         * */
         lnSocket oSocket = new lnSocket(this.sHost,this.nPort);
+//Log.d("SOCKET","Host: " + oSocket.oSocket.getInetAddress().toString());
         return oSocket;
     }
-
 
     /*
     * Cosa fa           :           Effettua il login comunicando con l'host
@@ -42,22 +43,24 @@ public class Client {
     * Ritorna           :           sRet -> cookie generato dal server, oppure vuoto in caso di errore
     * */
     String login(String sUser,String sPassword){
-        String sRet,sJson;
+        String sRet,sJson,sComando;
         sRet = "";
         lnSocket oSocket;
         JSONObject oJson = new JSONObject();
 
-        /*
+        sComando = "Login";
+
         // Mi collego con il server...
         try{
             oSocket = this.connect();
         }catch(java.io.IOException e){
-            LogBuffer.write("Login -> Impossibile creare il collegamento con il server",3);
+            //LogBuffer.write("Login -> Impossibile creare il collegamento con il server",3);
             return sRet;
         }
 
         // Genero il json sulla base dello user e della password seguendo il protocollo.
         try {
+            oJson.put("sComando", sComando);
             oJson.put("sUser", sUser);
             oJson.put("sPassword", sPassword);
         }catch(org.json.JSONException e){
@@ -68,10 +71,10 @@ public class Client {
 
         try {
             oSocket.write(sJson);
+            sRet = oSocket.read();
         }catch(java.io.IOException e){
-            LogBuffer.write("Login -> Impossibile comunicare con la socket",3);
         }
-        */
+
         return sRet;
     }
 }

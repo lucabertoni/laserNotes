@@ -1,6 +1,8 @@
 package app.lasernotes.org.lasernotes;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -16,10 +18,23 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // E' necessario per effettuare connessioni di rete dal thread principale
+        // Vedi: http://stackoverflow.com/questions/13136539/caused-by-android-os-networkonmainthreadexception
+        if (android.os.Build.VERSION.SDK_INT > 9) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        // Cambio il colore dell'icona e dello sfondo del bottone
+        fab.setColorFilter(Color.WHITE);
+        fab.setBackgroundTintList(getResources().getColorStateList(R.color.lnColor));
+
+        /*
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -27,6 +42,7 @@ public class Main extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+       */
     }
 
     @Override
@@ -54,7 +70,7 @@ public class Main extends AppCompatActivity {
     public void ButtonProva_onClick(View v){
         TextView oText = (TextView) findViewById(R.id.textView);
 
-        Client oClient = new Client("localhost",52000);
+        Client oClient = new Client("192.168.1.6",52000);
 
         /*
         * Cosa fa           :           Effettua il login comunicando con l'host

@@ -1,5 +1,7 @@
 package app.lasernotes.org.lasernotes;
 
+import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -13,8 +15,7 @@ import java.net.UnknownHostException;
  * Classe che gestisce le socket
  */
 public class lnSocket {
-    Socket oSocket;
-    Boolean bSockOk = false;
+    public Socket oSocket;
 
     /*
     * Cosa fa           :           Crea una socket sulla base dei parametri
@@ -23,12 +24,11 @@ public class lnSocket {
     * */
     lnSocket(String sHost, int nPort) throws java.io.IOException{
         // Ha bisogno del try-catch con eccezione "UnknownHostException"
+
         try{
             // Converto l'indirizzo dell'host passato come parametro nel formato necessario per la Socket
             InetAddress sIp = InetAddress.getByName(sHost);
-
             this.oSocket = new Socket(sHost,nPort);
-            this.bSockOk = true;
         }catch(UnknownHostException e){
             /*
             *   Cosa fa			:			Scrive il messaggio di log all'interno del file di log (LOGFILE)
@@ -39,9 +39,9 @@ public class lnSocket {
             *                                       3: Errore
             *                                       4: Debug
             * */
-            LogBuffer.write("Impossibile risolvere l'indirizzo: " + sHost,3);
-            return;
+            //LogBuffer.write("Impossibile risolvere l'indirizzo: " + sHost, 3);
         }
+        return;
     }
 
     /*
@@ -49,18 +49,15 @@ public class lnSocket {
     *   Ritorna         :           sRet -> stringa, testo inviato dal server (secondo il protocollo  un json)
     * */
     public String read() throws java.io.IOException{
-        String sRet, sApp;
+        String sRet;
         sRet = "";
 
         // Leggo il buffer dal server al quale è connessa la socket
         InputStreamReader oInput = new InputStreamReader(this.oSocket.getInputStream());
         BufferedReader oBuffer = new BufferedReader(oInput);
 
-        while ((sApp = oBuffer.readLine()) != null) {
-            sRet += sApp;
-        }
+        sRet = oBuffer.readLine();
 
-        oBuffer.close();
         return sRet;
     }
 
@@ -75,8 +72,6 @@ public class lnSocket {
 
         // Scrivo sulla socket
         oWriter.println(sMsg);
-
-        oWriter.close();
     }
 
     /*
