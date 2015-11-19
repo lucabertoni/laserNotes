@@ -1577,3 +1577,126 @@ DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword
 
 INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
 DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59457
+DEBUG   | 192.168.43.1 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:38080
+DEBUG   | 192.168.43.1 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:44832
+DEBUG   | 192.168.43.1 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:56263
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sEmail":"marcobertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:60088
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:46767
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:47285
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:47826
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:47421
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:50534
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:44634
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:36332
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:40613
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:53425
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:58556
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:45692
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59406
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:49463
+DEBUG   | 192.168.43.1 dice: {"sComando":"getUsername","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59359
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:48689
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:48610
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:40285
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59445
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:38109
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:53283
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:36853
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:57878
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:57559
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:39813
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:49960
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:58769
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente

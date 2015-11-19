@@ -107,6 +107,10 @@ class LaserNotes():
 													['sPassword'] => "Bertoni"
 			Ritorna				:				bRet -> logico, true = Insert OK | false = Errore
 		"""
+		# Se non è stato definito un livello, imposto quello di default: 1
+		if not("nLivello" in aData):
+			aData["nLivello"] = "1"
+
 		bInsert = oDB.insert(("sNome","sCognome","sEmail","sUsername","sPassword","nLivello"),"utenti",aData)
 
 		if bInsert:
@@ -195,8 +199,9 @@ class LaserNotes():
 		# Se aRet non è None significa che l'username e la password sono corretti
 		if not(aSelect == None):
 			sCookie = self.cookie_encode(aSelect["id"])
+			aRet["aUser"] = {}
 			for key in aSelect:
-				aRet[key] = aSelect[key]
+				aRet["aUser"][key] = aSelect[key]
 			aRet["sRisultato"] = "OK"
 
 		oDB.close()
