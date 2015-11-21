@@ -31,11 +31,11 @@ _server.py_: This is the **main** file.
 
 ## How to run the server
 An installer will be ready soon. Until it is not ready, follow this steps to have your server running:  
-1. Download and install requirements.
-2. Clone/Download this repository or download server package from releases
-3. Import the database from database/ directory using mysql
-4. If you have downloaded all the repository, "cd" into src/server/.
-5. Run "python3 server.py"
+1. Download and install requirements.  
+2. Clone/Download this repository or download server package from releases  
+3. Import the database from database/ directory using mysql  
+4. If you have downloaded all the repository, "cd" into src/server/.  
+5. Run "python3 server.py"  
 
 ## Contributors
 Luca Bertoni
