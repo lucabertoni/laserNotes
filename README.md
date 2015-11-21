@@ -30,10 +30,8 @@ Take your notes with laserNotes and share them on all your devices
 
 ```
 
-## Requirements
-
 ## Contributors
-Luca Bertoni (Server)  
+Luca Bertoni (Server +  Android App)  
 Andrea Lucchini (Web App)  
 
 ## Info/Contacts:

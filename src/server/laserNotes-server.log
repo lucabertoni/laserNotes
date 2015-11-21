@@ -1700,3 +1700,111 @@ DEBUG   | Elaboro richiesta da: 192.168.43.1:58769
 DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
 
 DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58661
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58665
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58668
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58671
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58875
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getAllNotes"}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58916
+DEBUG   | 192.168.1.6 dice: {"sComando": "getAllNotes", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58925
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getAllNotes"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59055
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": "1"}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59063
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "updateNote", "aNote": {"sTesto": "Testo nota update", "sTitolo": "Titolo nota update", "id": 1}}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59067
+DEBUG   | 192.168.1.6 dice: {"sComando": "updateNote", "aNote": {"id": 1, "sTesto": "Testo nota update", "sTitolo": "Titolo nota update"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | SQL|UPDATE note SET sTitolo='Titolo nota update',sTesto='Testo nota update',sDate='2015-11-21 21:17:07' WHERE id=1 |
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59071
+DEBUG   | 192.168.1.6 dice: {"aNote": {"id": 1, "sTesto": "Testo nota update", "sTitolo": "Titolo nota update"}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | SQL|UPDATE note SET sTitolo='Titolo nota update',sTesto='Testo nota update',sDate='2015-11-21 21:18:13' WHERE id=1 |
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59075
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": 1}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59078
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTesto": "Testo nota update", "id": 1, "sTitolo": "Titolo nota update"}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59081
+DEBUG   | 192.168.1.6 dice: {"sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": 10}}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59084
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": 2}, "sComando": "updateNote"}
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 2
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59096
+DEBUG   | 192.168.1.6 dice: {"sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 1}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59099
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote", "nIdNota": 1}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59102
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote", "nIdNota": 1}
+DEBUG   | SQL|DELETE FROM note WHERE id=1 AND nIdUtente=1 |
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59105
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 1, "sComando": "deleteNote"}
+DEBUG   | SQL|DELETE FROM note WHERE id=1 AND nIdUtente=1 |
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59108
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote", "nIdNota": 2}
+DEBUG   | SQL|DELETE FROM note WHERE id=2 AND nIdUtente=1 |
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 2
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59111
+DEBUG   | 192.168.1.6 dice: {"sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 2}
+DEBUG   | SQL|DELETE FROM note WHERE nIdUtente=1 AND id=2 |
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59114
+DEBUG   | 192.168.1.6 dice: {"nIdNota": 3, "sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | SQL|DELETE FROM note WHERE nIdUtente=1 AND id=3 |
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 3
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59117
+DEBUG   | 192.168.1.6 dice: {"nIdNota": 3, "sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote"}
+DEBUG   | SQL|DELETE FROM note WHERE id=3 AND nIdUtente=1|
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59121
+DEBUG   | 192.168.1.6 dice: {"sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 4}
+DEBUG   | SQL|DELETE FROM note WHERE id=4 AND nIdUtente=1|
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 4
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59125
+DEBUG   | 192.168.1.6 dice: {"sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59128
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59131
+DEBUG   | 192.168.1.6 dice: {"sComando": "addNote", "aNote": {"sTesto": "Testo nota", "sTitolo": "Titolo nota"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59134
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59137
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente

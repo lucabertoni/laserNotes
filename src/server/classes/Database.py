@@ -50,10 +50,61 @@ class Database():
 					sSql += " " + key + "='" + aWhere[key] + "' AND"
 					
 			# Cancello l' "AND" finale
-			sSql = sSql[:-3]
+			sSql = sSql[:-4]
 		try:
 			self.oCursor.execute(sSql)
 			aRet = self.oCursor.fetchone()
+		except Exception as e:
+			pass
+
+		return aRet
+
+	def selectAll(self,aWhat = ("*"),sTabella = "",aWhere = {}):
+		"""
+			Cosa fa				:				Esegue una select multipla su una tabella
+			aWhat				:				tupla, quali campi estrarre, così formata:
+													[0] => "sTitolo"
+													[1] => "sTesto"
+													...
+			sTabella			:				stringa, nome della tabella sulla quale eseguire la query
+			aWhere				:				dizionario, campi per where, es:
+													["sCookie"] => "28c8edde3d61a041121511d3b1866f0636"
+			Ritorna				:				aRet -> lista, lista di dizionari (elementi) estratti con la select, così formato:
+												[0]	=> 
+													["id"] => 1
+													["sTitolo"] => "Titolo nota"
+													["sTesto"] => "Testo nota"
+													["sDate"] => "2015-11-21 20:22:15"
+												...
+		"""
+		aRet = {}
+		sSql = "SELECT "
+
+		# Compongo i campi da cercare
+		for x in aWhat:
+			sSql += x + ","
+
+		# Cancello la virgola finale
+		sSql = sSql[:-1]
+
+		# Aggiungo il nome della tabella da cui estrarre i dati
+		sSql += " FROM " + sTabella
+
+		# Aggiungo eventuali where
+		if len(aWhere) > 0:
+			sSql += " WHERE"
+			for key in aWhere:
+				# Se è un numero non metto gli apici
+				if aWhere[key].isnumeric():
+					sSql += " " + key + "=" + aWhere[key] + " AND"
+				else:
+					sSql += " " + key + "='" + aWhere[key] + "' AND"
+					
+			# Cancello l' "AND" finale
+			sSql = sSql[:-4]
+		try:
+			self.oCursor.execute(sSql)
+			aRet = self.oCursor.fetchall()
 		except Exception as e:
 			pass
 
@@ -98,6 +149,89 @@ class Database():
 
 		sSql += ")"
 		
+		try:
+			bRet = self.oCursor.execute(sSql) # Eseguo la sql
+			self.oConnection.commit() # Eseguo il commit dell'insert
+		except Exception as e:
+			bRet = False
+
+		return bRet
+
+	def update(self, aWhat = (""), sTabella = "", aData = {},aWhere = {}):
+		"""
+			Cosa fa				:				Aggiorna un dato in una tabella una tabella
+			aWhat				:				tupla, quali campi aggiornare, così formata:
+													[0] => "sUsername"
+													[1] => "sPassword"
+													...
+			sTabella			:				stringa, nome della tabella sulla quale eseguire la query
+			aData				:				dizionario, campi per update con chiavi corrispondenti ai campi aWhat, es:
+													['sUsername'] => "Luca"
+													['sPassword'] => "Bertoni"
+			aWhere				:				dizionario, campi per where, es:
+													["id"] => 1
+			Ritorna				:				bRet -> logico, true = Update OK | false = Errore
+		"""
+		bRet = False
+		sSql = "UPDATE " + sTabella + " SET "
+
+		for x in aWhat:
+			ele = aData[x]
+
+			# Se è un numero non metto gli apici
+			if ele.isnumeric():
+				sSql += x + "=" + ele + ","
+			else:
+				sSql += x + "=" + "'" + ele + "',"
+
+		# Cancello la virgola finale
+		sSql = sSql[:-1]
+
+		# Aggiungo eventuali where
+		if len(aWhere) > 0:
+			sSql += " WHERE"
+			for key in aWhere:
+				# Se è un numero non metto gli apici
+				if aWhere[key].isnumeric():
+					sSql += " " + key + "=" + aWhere[key] + " AND"
+				else:
+					sSql += " " + key + "='" + aWhere[key] + "' AND"
+					
+			# Cancello l' "AND" finale
+			sSql = sSql[:-4]
+
+		try:
+			bRet = self.oCursor.execute(sSql) # Eseguo la sql
+			self.oConnection.commit() # Eseguo il commit dell'insert
+		except Exception as e:
+			bRet = False
+
+		return bRet
+
+	def delete(self, sTabella = "",aWhere = {}):
+		"""
+			Cosa fa				:				Cancella un dato da una tabella
+			sTabella			:				stringa, nome della tabella sulla quale eseguire la query
+			aWhere				:				dizionario, campi per where, es:
+													["id"] => 1
+			Ritorna				:				bRet -> logico, true = Delete OK | false = Errore
+		"""
+		bRet = False
+		sSql = "DELETE FROM " + sTabella
+
+		# Aggiungo eventuali where
+		if len(aWhere) > 0:
+			sSql += " WHERE"
+			for key in aWhere:
+				# Se è un numero non metto gli apici
+				if aWhere[key].isnumeric():
+					sSql += " " + key + "=" + aWhere[key] + " AND"
+				else:
+					sSql += " " + key + "='" + aWhere[key] + "' AND"
+					
+			# Cancello l' "AND" finale
+			sSql = sSql[:-4]
+
 		try:
 			bRet = self.oCursor.execute(sSql) # Eseguo la sql
 			self.oConnection.commit() # Eseguo il commit dell'insert

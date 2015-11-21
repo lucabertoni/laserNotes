@@ -40,6 +40,18 @@ class Server():
 		elif sComando == 'GETALLUSERINFO':
 			aRisultato = self.oLN.getAllUserInfo(aData) # Estraggo tutte le informazioni dell'utente
 			bRet = True
+		elif sComando == 'ADDNOTE':
+			aRisultato = self.oLN.addNote(aData) # Aggiungo una nota
+			bRet = True
+		elif sComando == 'GETALLNOTES':
+			aRisultato = self.oLN.getAllNotes(aData) # Estraggo tutte le note di un utente
+			bRet = True
+		elif sComando == 'UPDATENOTE':
+			aRisultato = self.oLN.updateNote(aData) # Aggiorno una nota
+			bRet = True
+		elif sComando == 'DELETENOTE':
+			aRisultato = self.oLN.deleteNote(aData) # Aggiorno una nota
+			bRet = True
 			
 		oSock.sendall(json.dumps(aRisultato).encode("utf-8") + "\n".encode('utf-8')) # Invio la risposta al client
 
@@ -73,7 +85,7 @@ class Server():
 		if not bOk:
 			LogBuffer.write("Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni",3)
 		else:
-			bRet = True			
+			bRet = True	
 
 		return bRet
 
