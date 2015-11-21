@@ -2,17 +2,15 @@
 
 Take your notes with laserNotes and share them on all your devices
 
-## Server
-
-This is the folder that contains source code of laserNotes.
+## Directory
+This directory contains the source code of laserNotes Apps.
 
 ## Contributors
-Luca Bertoni (Server)
-Andrea Lucchini (Web App)
+Luca Bertoni
 
 ## Info/Contacts:
 **Authors**: Luca Bertoni, Andrea Lucchini  
-**Version**: 0.1-dev  
+**Version**: 0.9-unstable
 **Contacts**:  
 
 	Email: luca.bertoni24@gmail.com

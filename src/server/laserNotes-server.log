@@ -1,0 +1,1810 @@
+INFO    | 127.0.0.1 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "LOGIN", "sUser": "lucabertoni"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+INFO    | Elaboro richiesta da: 127.0.0.1:50828
+INFO    | 127.0.0.1 dice: {"sCognome": "Bertoni", "sEmail": "luca.bertoni24@gmail.com", "sUsername": "lucabertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Luca", "nLivello": 1}
+INFO    | Elaboro richiesta da: 127.0.0.1:50829
+INFO    | 127.0.0.1 dice: {"sUsername": "lucabertoni", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "nLivello": 1, "sCognome": "Bertoni", "sNome": "Luca", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50832
+INFO    | 127.0.0.1 dice: {"nLivello": 1, "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sUsername": "lucabertoni", "sNome": "Luca", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50835
+INFO    | 127.0.0.1 dice: {"sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni", "sNome": "Luca", "sCognome": "Bertoni", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "nLivello": "1"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50838
+INFO    | 127.0.0.1 dice: {"sUsername": "lucabertoni", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "luca.bertoni24@gmail.com", "sNome": "Luca", "sComando": "ADDUSER", "sCognome": "Bertoni"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50841
+INFO    | 127.0.0.1 dice: {"sCognome": "Bertoni", "nLivello": "1", "sNome": "Luca", "sComando": "ADDUSER", "sUsername": "lucabertoni", "sEmail": "luca.bertoni24@gmail.com", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50844
+INFO    | 127.0.0.1 dice: {"sNome": "Luca", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni", "sComando": "ADDUSER", "sCognome": "Bertoni", "sEmail": "luca.bertoni24@gmail.com"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50847
+INFO    | 127.0.0.1 dice: {"nLivello": "1", "sEmail": "luca.bertoni24@gmail.com", "sUsername": "lucabertoni", "sComando": "ADDUSER", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Luca"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50850
+INFO    | 127.0.0.1 dice: {"sUsername": "lucabertoni", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Luca", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "nLivello": "1"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50853
+INFO    | 127.0.0.1 dice: {"sNome": "Luca", "sComando": "ADDUSER", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sUsername": "lucabertoni"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 127.0.0.1:50856
+INFO    | 127.0.0.1 dice: {"sEmail": "luca.bertoni24@gmail.com", "sComando": "ADDUSER", "sCognome": "Bertoni", "sNome": "Luca", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni"}
+INFO    | Elaboro richiesta da: 127.0.0.1:50860
+INFO    | 127.0.0.1 dice: {"nLivello": "1", "sNome": "Luca", "sUsername": "lucabertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sComando": "ADDUSER"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53149
+INFO    | 192.168.0.183 dice: {"nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni", "sNome": "Luca", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '192.168.0.183' ([Errno 111] Connection refused)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53153
+INFO    | 192.168.0.183 dice: {"sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sCognome": "Bertoni", "sNome": "Luca", "sEmail": "luca.bertoni24@gmail.com", "sComando": "ADDUSER", "sUsername": "lucabertoni"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53154
+INFO    | 192.168.0.183 dice: {"sUsername": "lucabertoni", "nLivello": "1", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Bertoni", "sNome": "Luca"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53155
+INFO    | 192.168.0.183 dice: {"sComando": "ADDUSER", "sNome": "Luca", "sEmail": "luca.bertoni24@gmail.com", "sUsername": "lucabertoni", "sCognome": "Bertoni", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53156
+INFO    | 192.168.0.183 dice: {"sUsername": "lucabertoni", "sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sComando": "ADDUSER", "sNome": "Luca", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on '' ([Errno -2] Name or service not known)")
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53222
+INFO    | 192.168.0.183 dice: {"sEmail": "luca.bertoni24@gmail.com", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sComando": "ADDUSER", "sUsername": "lucabertoni", "sNome": "Luca"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53233
+INFO    | 192.168.0.183 dice: {"sEmail": "luca.bertoni24@gmail.com", "sNome": "Luca", "sCognome": "Bertoni", "sUsername": "lucabertoni", "nLivello": "1", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53236
+INFO    | 192.168.0.183 dice: {"sNome": "Luca", "sEmail": "luca.bertoni24@gmail.com", "nLivello": "1", "sCognome": "Bertoni", "sComando": "ADDUSER", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "lucabertoni"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53248
+INFO    | 192.168.0.183 dice: {"sUsername": "lucabertoni", "sComando": "ADDUSER", "sEmail": "luca.bertoni24@gmail.com", "sNome": "Luca", "nLivello": "1", "sCognome": "Bertoni", "sPassword": "9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53259
+INFO    | 192.168.0.183 dice: {"nLivello": "1", "sNome": "Andrea", "sUsername": "andrealucchini", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sEmail": "booh@gmail.com"}
+INFO    | Richiesta elaborata correttamente
+INFO    | Elaboro richiesta da: 192.168.0.183:53280
+INFO    | 192.168.0.183 dice: {"sComando": "ADDUSER", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "nLivello": "1"}
+INFO    | Aggiungo utente: Username = andrealucchini
+INFO    | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53316
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "nLivello": "1", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+INFO    | Richiesta elaborata correttamente
+Elaboro richiesta da: 192.168.0.183:53319
+192.168.0.183 dice: {"sComando": "ADDUSER", "sNome": "Andrea", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sEmail": "booh@gmail.com"}
+INFO    | Aggiungo utente: Username = andrealucchini
+INFO    | Richiesta elaborata correttamente
+INFO    | Aggiungo utente: Username = andrealucchini
+INFO    | Richiesta elaborata correttamente
+INFO    | Aggiungo utente: Username = andrealucchini
+INFO    | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53333
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sNome": "Andrea", "sComando": "ADDUSER", "sEmail": "booh@gmail.com"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53344
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER", "nLivello": "1"}
+INFO    | Aggiungo utente: Username = andrealucchini
+INFO    | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53347
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "nLivello": "1", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53350
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53354
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "nLivello": "1", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50378
+DEBUG   | 192.168.0.228 dice: Messaggio di prova
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50405
+DEBUG   | 192.168.0.228 dice: "Messaggio di prov
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50411
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50681
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50691
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50692
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50697
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50710
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50722
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50733
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50735
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50746
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50758
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50760
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.228:50771
+DEBUG   | 192.168.0.228 dice: {"sComando":"PROVA","sParam":"Parametro"}
+ERROR   | Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51295
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sCognome": "Lucchini", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51298
+DEBUG   | 192.168.0.183 dice: {"sEmail": "booh@gmail.com", "nLivello": "1", "sCognome": "Lucchini", "sNome": "Andrea", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51301
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sNome": "Andrea", "sUsername": "andrealucchini", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51305
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sComando": "ADDUSER", "sNome": "Andrea", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51308
+DEBUG   | 192.168.0.183 dice: {"sEmail": "booh@gmail.com", "sComando": "ADDUSER", "nLivello": "1", "sNome": "Andrea", "sCognome": "Lucchini", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51314
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sUsername": "andrealucchini", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51317
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sNome": "Andrea", "sEmail": "booh@gmail.com"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51321
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sUsername": "andrealucchini", "sNome": "Andrea", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51327
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sNome": "Andrea", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sUsername": "andrealucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51330
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sUsername": "andrealucchini", "nLivello": "1", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51334
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "andrealucchini", "sNome": "Andrea", "sEmail": "booh@gmail.com", "nLivello": "1"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51338
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "sComando": "ADDUSER", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "nLivello": "1", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51341
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sNome": "Andrea", "sComando": "ADDUSER", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sCognome": "Lucchini"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51347
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sComando": "ADDUSER", "sNome": "Andrea", "nLivello": "1", "sEmail": "booh@gmail.com"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51350
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sNome": "Andrea", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sComando": "ADDUSER"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51356
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sUsername": "andrealucchini", "nLivello": "1"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51359
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea", "sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51365
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "nLivello": "1", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51368
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sCognome": "Lucchini", "sUsername": "andrealucchini", "sComando": "ADDUSER", "sNome": "Andrea", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51371
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sComando": "ADDUSER", "sUsername": "andrealucchini", "nLivello": "1"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51374
+DEBUG   | 192.168.0.183 dice: {"sUsername": "andrealucchini", "sComando": "ADDUSER", "sNome": "Andrea", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sCognome": "Lucchini", "sEmail": "booh@gmail.com", "nLivello": "1"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51377
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sEmail": "booh@gmail.com", "sNome": "Andrea", "sUsername": "andrealucchini", "sComando": "ADDUSER", "sCognome": "Lucchini"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51381
+DEBUG   | 192.168.0.183 dice: {"sCognome": "Lucchini", "sNome": "Andrea", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51384
+DEBUG   | 192.168.0.183 dice: {"nLivello": "1", "sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sUsername": "andrealucchini", "sCognome": "Lucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sNome": "Andrea"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51387
+DEBUG   | 192.168.0.183 dice: {"sEmail": "booh@gmail.com", "sComando": "ADDUSER", "sCognome": "Lucchini", "sUsername": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "nLivello": "1", "sNome": "Andrea"}
+INFO    | Aggiungo utente: Username = andrealucchini
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:51390
+DEBUG   | 192.168.0.183 dice: {"sNome": "Andrea", "nLivello": "1", "sCognome": "Lucchini", "sComando": "ADDUSER", "sUsername": "andrealucchini", "sEmail": "booh@gmail.com", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:52235
+DEBUG   | 192.168.0.183 dice: {"sComando": "ADDUSER", "sEmail": "booh@gmail.com", "sCognome": "Lucchini", "nLivello": "1", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUsername": "andrealucchini", "sNome": "Andrea"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59199
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59210
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"sadf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59224
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"sadf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59236
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"74be16979710d4c4e7c6647856088456"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59241
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59249
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"awqs","sPassword":"7e008dcaf234f81f2c77776934205db5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59258
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"awqs","sPassword":"7e008dcaf234f81f2c77776934205db5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59269
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59277
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59295
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53640
+DEBUG   | 192.168.0.183 dice: {"sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "lucabertoni", "sComando": "LOGIN"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53643
+DEBUG   | 192.168.0.183 dice: {"sUser": "andrealucchini", "sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53646
+DEBUG   | 192.168.0.183 dice: {"sComando": "LOGIN", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2", "sUser": "andrealucchini"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:53649
+DEBUG   | 192.168.0.183 dice: {"sComando": "LOGIN", "sUser": "andrealucchini", "sPassword": "b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59309
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59320
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59338
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59340
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59343
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59354
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59357
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59366
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59371
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59381
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59383
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59385
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59387
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59389
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59393
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59395
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59410
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59425
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59432
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59442
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59450
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59463
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59475
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59491
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59497
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59505
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59516
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59528
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59531
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"74be16979710d4c4e7c6647856088456"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59533
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59545
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59583
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59584
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59587
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59593
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59602
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59605
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59615
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59645
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59657
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"024b070e24c74eaf36373869fa3093c5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59665
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"024b070e24c74eaf36373869fa3093c5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59675
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"024b070e24c74eaf36373869fa3093c5"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:59685
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:43871
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"root"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:43880
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"root"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:43891
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:43910
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"ahev","sPassword":"2af9d5932ea9ad349abd9e14aaf35113"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:51706
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"vszcsa","sPassword":"64a1b492d7d3d2c7ad0faa3e1c261d1a"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:51740
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"dQac","sPassword":"3990b853331724bb25bad39d3957d61e"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:51742
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:51876
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:43774
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49298
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49309
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49313
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49320
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49325
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49341
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49346
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49383
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49387
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49390
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49393
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49397
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49406
+DEBUG   | 192.168.0.183 dice: {"sComando": "getUsername", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49410
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49413
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49418
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getUsername"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.183:49526
+DEBUG   | 192.168.0.183 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getAllUserInfo"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:42350
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:42359
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.0.228:42366
+DEBUG   | 192.168.0.228 dice: {"sComando":"login","sUser":"andrealucchini","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 817808d063b210533845f9a3ebbf173ea3d
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43530
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43363
+DEBUG   | Elaboro richiesta da: 192.168.1.3:41803
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47292
+DEBUG   | Elaboro richiesta da: 192.168.1.3:36957
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52086
+DEBUG   | Elaboro richiesta da: 192.168.1.3:44129
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48498
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37045
+DEBUG   | Elaboro richiesta da: 192.168.1.3:35960
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54721
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47158
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57586
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.3 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37367
+DEBUG   | 192.168.1.3 dice: {"sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:46401
+DEBUG   | 192.168.1.3 dice: {"sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51724
+DEBUG   | 192.168.1.3 dice: {"sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50874
+DEBUG   | 192.168.1.3 dice: {"sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57805
+DEBUG   | 192.168.1.3 dice: {"sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42751
+DEBUG   | 192.168.1.3 dice: {"sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48463
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54591
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58858
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33854
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:49213
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37945
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56639
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33217
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52803
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:59311
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47211
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45524
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48191
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:55817
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50964
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37167
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:41992
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54332
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43094
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38728
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33357
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34726
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38028
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42262
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:40118
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37933
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:35138
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51424
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:46494
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:53498
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:41489
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:41021
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57935
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37398
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56002
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58698
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48972
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56140
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38802
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43498
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51071
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:46146
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58400
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34773
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57128
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:55248
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43705
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48331
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58045
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34060
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:46647
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:49382
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48734
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47972
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52151
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50901
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:59239
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43367
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38474
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33875
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:36007
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47681
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39110
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:60883
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:35036
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43803
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38547
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45801
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:35646
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51347
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39064
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34309
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:53977
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51982
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:59669
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50235
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48968
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54433
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38581
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45543
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:36890
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34483
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47118
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39629
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38917
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52411
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47655
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57590
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48211
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39286
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42780
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48875
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33015
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43720
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56314
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45749
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42024
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56902
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37592
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33046
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48650
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50671
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:59473
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56593
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:44003
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43204
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54637
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48479
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43675
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33637
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43258
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38669
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:55379
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:60746
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:44960
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34619
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47641
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52742
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51098
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57973
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57775
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50023
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:32839
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:60230
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56874
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43331
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39789
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33468
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57700
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50667
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48733
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:53320
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54159
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52413
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:53831
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38324
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42391
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47581
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:50821
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:34095
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:49702
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43356
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42330
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58030
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54618
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:55215
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52723
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51991
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57900
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:60449
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57983
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47522
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39337
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33727
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:42502
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51160
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56694
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:35610
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:55793
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:40105
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:57789
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48722
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54258
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38637
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45512
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:48208
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47675
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52929
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33320
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:60320
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:44814
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45864
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33251
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52777
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:51491
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56455
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:52231
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:46494
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:55955
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:38179
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:37576
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:43396
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:36047
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58779
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58085
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:33989
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:49644
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:56816
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:45351
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:46027
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54049
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:54842
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:39050
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:47520
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.3:58305
+DEBUG   | 192.168.1.3 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59457
+DEBUG   | 192.168.43.1 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:38080
+DEBUG   | 192.168.43.1 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:44832
+DEBUG   | 192.168.43.1 dice: {"sComando":"Login","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:56263
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sEmail":"marcobertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:60088
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:46767
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:47285
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:47826
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:47421
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:50534
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:44634
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:36332
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:40613
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:53425
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:58556
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:45692
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+INFO    | Aggiungo utente: Username = marcobertoni
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59406
+DEBUG   | 192.168.43.1 dice: {"sComando":"AddUser","sNome":"Marco","sCognome":"Bertoni","sUsername":"marcobertoni","sEmail":"marco@marco.it","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:49463
+DEBUG   | 192.168.43.1 dice: {"sComando":"getUsername","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59359
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:48689
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:48610
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:40285
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:59445
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:38109
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:53283
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:36853
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:57878
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:57559
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:39813
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Elaboro richiesta da: 192.168.43.1:49960
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.43.1:58769
+DEBUG   | 192.168.43.1 dice: {"sComando":"getAllUserInfo","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58661
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58665
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58668
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58671
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58875
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getAllNotes"}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58916
+DEBUG   | 192.168.1.6 dice: {"sComando": "getAllNotes", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:58925
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "getAllNotes"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59055
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": "1"}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59063
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "updateNote", "aNote": {"sTesto": "Testo nota update", "sTitolo": "Titolo nota update", "id": 1}}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59067
+DEBUG   | 192.168.1.6 dice: {"sComando": "updateNote", "aNote": {"id": 1, "sTesto": "Testo nota update", "sTitolo": "Titolo nota update"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | SQL|UPDATE note SET sTitolo='Titolo nota update',sTesto='Testo nota update',sDate='2015-11-21 21:17:07' WHERE id=1 |
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59071
+DEBUG   | 192.168.1.6 dice: {"aNote": {"id": 1, "sTesto": "Testo nota update", "sTitolo": "Titolo nota update"}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | SQL|UPDATE note SET sTitolo='Titolo nota update',sTesto='Testo nota update',sDate='2015-11-21 21:18:13' WHERE id=1 |
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59075
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": 1}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59078
+DEBUG   | 192.168.1.6 dice: {"aNote": {"sTesto": "Testo nota update", "id": 1, "sTitolo": "Titolo nota update"}, "sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59081
+DEBUG   | 192.168.1.6 dice: {"sComando": "updateNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": 10}}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59084
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota update", "sTesto": "Testo nota update", "id": 2}, "sComando": "updateNote"}
+INFO    | Aggiorno una nota: Id Utente = 1. Id nota: 2
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59096
+DEBUG   | 192.168.1.6 dice: {"sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 1}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59099
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote", "nIdNota": 1}
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59102
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote", "nIdNota": 1}
+DEBUG   | SQL|DELETE FROM note WHERE id=1 AND nIdUtente=1 |
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59105
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 1, "sComando": "deleteNote"}
+DEBUG   | SQL|DELETE FROM note WHERE id=1 AND nIdUtente=1 |
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59108
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote", "nIdNota": 2}
+DEBUG   | SQL|DELETE FROM note WHERE id=2 AND nIdUtente=1 |
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 2
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59111
+DEBUG   | 192.168.1.6 dice: {"sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 2}
+DEBUG   | SQL|DELETE FROM note WHERE nIdUtente=1 AND id=2 |
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59114
+DEBUG   | 192.168.1.6 dice: {"nIdNota": 3, "sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | SQL|DELETE FROM note WHERE nIdUtente=1 AND id=3 |
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 3
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59117
+DEBUG   | 192.168.1.6 dice: {"nIdNota": 3, "sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "deleteNote"}
+DEBUG   | SQL|DELETE FROM note WHERE id=3 AND nIdUtente=1|
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59121
+DEBUG   | 192.168.1.6 dice: {"sComando": "deleteNote", "sCookie": "28c8edde3d61a041121511d3b1866f0636", "nIdNota": 4}
+DEBUG   | SQL|DELETE FROM note WHERE id=4 AND nIdUtente=1|
+INFO    | Cancello una nota: Id Utente = 1. Id nota: 4
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59125
+DEBUG   | 192.168.1.6 dice: {"sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59128
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "sComando": "addNote", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59131
+DEBUG   | 192.168.1.6 dice: {"sComando": "addNote", "aNote": {"sTesto": "Testo nota", "sTitolo": "Titolo nota"}, "sCookie": "28c8edde3d61a041121511d3b1866f0636"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59134
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.6:59137
+DEBUG   | 192.168.1.6 dice: {"sCookie": "28c8edde3d61a041121511d3b1866f0636", "aNote": {"sTitolo": "Titolo nota", "sTesto": "Testo nota"}, "sComando": "addNote"}
+INFO    | Aggiungo una nota: Id Utente = 1
+DEBUG   | Richiesta elaborata correttamente
