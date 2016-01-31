@@ -451,7 +451,7 @@ class LaserNotes():
 			Ritorna				:				nId -> numerico, id estratto dal cookie, -1 = Errore
 		"""
 		nId = -1
-
-		nId = int(int(sCookie[16:-16])/12)
+		if not(sCookie == None) and (not(sCookie == "")):
+			nId = int(int(sCookie[16:-16])/12)
 
 		return nId

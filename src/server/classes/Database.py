@@ -1,5 +1,7 @@
 import pymysql.cursors
 
+from classes.LogBuffer import LogBuffer
+
 class Database():
 	"""Classe che gestisce la connesione al database"""
 	def __init__(self,sHost,sUser,sPassword,sDbName):
@@ -153,6 +155,7 @@ class Database():
 			bRet = self.oCursor.execute(sSql) # Eseguo la sql
 			self.oConnection.commit() # Eseguo il commit dell'insert
 		except Exception as e:
+			LogBuffer.write("Sql Insert Exception: {0}".format(e),3)
 			bRet = False
 
 		return bRet
