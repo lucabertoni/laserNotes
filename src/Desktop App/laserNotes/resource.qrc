@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="menu-icon">icons/ic_menu_white_18dp.png</file>
+        <file alias="drop-down-icon">icons/ic_arrow_drop_down_white_18dp.png</file>
+    </qresource>
+</RCC>

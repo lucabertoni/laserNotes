@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "client.h"
+
 namespace Ui {
 class laserNotes;
 }
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::laserNotes *ui;
+    Client *oClient;
 };
 
 #endif // LASERNOTES_H

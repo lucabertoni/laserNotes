@@ -13,8 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        lasernotes.cpp
+        lasernotes.cpp \
+    client.cpp \
+    user.cpp \
+    socket.cpp
 
-HEADERS  += lasernotes.h
+HEADERS  += lasernotes.h \
+    client.h \
+    user.h \
+    socket.h
 
 FORMS    += lasernotes.ui
+
+RESOURCES = resource.qrc
