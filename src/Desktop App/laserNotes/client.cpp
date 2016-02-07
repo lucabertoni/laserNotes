@@ -35,7 +35,33 @@ bool Client::connect(){
 /*
  * Cosa fa          :           Si disconnette al server
 */
-void diconnect(){
-    // TODO: Implementare metodo
+void Client::diconnect(){
+    /*
+     * Cosa fa          :           Chiude la comunicazione
+    */
+    this->oSocket->closeSocket();
     return;
+}
+
+/*
+ * Cosa fa          :           Effettua il login al server.
+ * username         :           stringa, username da utilizzare per effettuare l'accesso
+ * password         :           stringa, password da utilizzare per l'accesso, criptata con doppio md5
+ *
+ * Ritorna          :           sCookie -> stringa, cookie con il quale eseguire le operazioni. "" = Errore login
+*/
+string Client::login(string username, string password){
+    string sCookie;
+
+    sCookie = "";
+
+
+    return sCookie;
+}
+
+/*
+ * Cosa fa         :           Rilascia dalla memoria le risorse che ha allocato
+*/
+Client::~Client(){
+    delete this->oSocket;
 }

@@ -4,7 +4,7 @@
 #include <string>
 
 #include "user.h"   // File che definisce la classe per la gestione dell'utente
-#include "socket.h"
+#include "lnsocket.h"
 
 using namespace std;
 
@@ -32,14 +32,19 @@ public:
      * username         :           stringa, username da utilizzare per effettuare l'accesso
      * password         :           stringa, password da utilizzare per l'accesso, criptata con doppio md5
      *
-     * Ritorna          :           bRet, logico -> true = login effettuato
+     * Ritorna          :           sCookie -> stringa, cookie con il quale eseguire le operazioni. "" = Errore login
     */
-    User login(string username, string password);
+    string login(string username, string password);
 
     /*
      * Cosa fa          :           Si disconnette al server
     */
     void diconnect();
+
+    /*
+     * Cosa fa         :           Rilascia dalla memoria le risorse che ha allocato
+    */
+    ~Client();
 };
 
 #endif // CLIENT_H

@@ -2613,3 +2613,127 @@ DEBUG   | Elaboro richiesta da: 192.168.0.228:55408
 DEBUG   | 192.168.0.228 dice: {"sComando":"addNote","sCookie":"817808d063b210533845f9a3ebbf173ea3d","aNote":{"sTitolo":"wdw","sTesto":"escemec"}}
 INFO    | Aggiungo una nota: Id Utente = 32
 DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45564
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45566
+DEBUG   | 192.168.1.9 dice: lol
+
+DEBUG   | Elaboro richiesta da: 127.0.0.1:34810
+DEBUG   | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 127.0.0.1:34811
+DEBUG   | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 127.0.0.1:34812
+DEBUG   | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 127.0.0.1:34813
+DEBUG   | 127.0.0.1 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45738
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45739
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45750
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45751
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45752
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45758
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45791
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45849
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45850
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45851
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45866
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45867
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45897
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45906
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45907
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45908
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45916
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45917
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45943
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45944
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45945
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45946
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45954
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45955
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45956
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:45981
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46264
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46265
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46272
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46273
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46310
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46311
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46312
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46313
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46343
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46344
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta

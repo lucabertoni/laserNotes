@@ -16,13 +16,21 @@ SOURCES += main.cpp\
         lasernotes.cpp \
     client.cpp \
     user.cpp \
-    socket.cpp
+    login.cpp \
+    lnsocket.cpp \
+    common.cpp \
+    md5.cpp
 
-HEADERS  += lasernotes.h \
+HEADERS  += \
     client.h \
     user.h \
-    socket.h
+    lasernotes.h \
+    login.h \
+    lnsocket.h \
+    common.h \
+    md5.h
 
-FORMS    += lasernotes.ui
+FORMS    += lasernotes.ui \
+    login.ui
 
 RESOURCES = resource.qrc

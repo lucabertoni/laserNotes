@@ -1,4 +1,5 @@
 #include "lasernotes.h"
+#include "login.h"
 #include <QApplication>
 #include <QRect>
 #include <QDesktopWidget>
@@ -6,7 +7,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    laserNotes w;
+    //laserNotes w;
+    Login w;
     int x,y;
 
     // Centro la finestra sullo schermo

@@ -1,5 +1,5 @@
-#ifndef SOCKET_H
-#define SOCKET_H
+#ifndef LASERNOTES_SOCKET_H
+#define LASERNOTES_SOCKET_H
 
 
                 /*==================================
@@ -34,8 +34,7 @@ private:
      * stSock           :           struttura che definisce la socket (porta, protocollo)
      * sock             :           intero, descrittore della socket
     */
-    struct hostent *host;
-    struct sockaddr_in *stSock;
+    struct sockaddr_in stSock;
     int sock;
 
     /*----------  Funzioni/Metodi  ----------*/
