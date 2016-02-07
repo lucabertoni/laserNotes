@@ -66,26 +66,27 @@ class Server():
 											[1] => 50465, numerico -> porta del client		
 			Ritorna			:			bRet -> logico, true = tutto ok | false = errore
 		"""
-		bRet = False
+
 		print("Elaboro...")
-		
 		LogBuffer.write("Elaboro richiesta da: {0}:{1}".format(oClient[1][0],oClient[1][1]),4)
 		
-		sData = self.oSocket.recv(oClient,MSGLEN)
+		while 1:
+			bRet = False
+			sData = self.oSocket.recv(oClient,MSGLEN)
 
-		LogBuffer.write("{0} dice: {1}".format(oClient[1][0],sData),4)
+			LogBuffer.write("{0} dice: {1}".format(oClient[1][0],sData),4)
 
-		if sData == "":
-			return bRet
+			if sData == "":
+				return bRet
 
-		aData = json.loads(sData)
+			aData = json.loads(sData)
 
-		bOk = self.parse(aData,oClient[0])
+			bOk = self.parse(aData,oClient[0])
 
-		if not bOk:
-			LogBuffer.write("Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni",3)
-		else:
-			bRet = True	
+			if not bOk:
+				LogBuffer.write("Errore durante il parse del comando. Controllare log precedenti per maggiori informazioni",3)
+			else:
+				bRet = True	
 
 		return bRet
 

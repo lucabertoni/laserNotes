@@ -2737,3 +2737,421 @@ ERROR   | Errore durante l'elaborazione della richiesta
 DEBUG   | Elaboro richiesta da: 192.168.1.9:46344
 DEBUG   | 192.168.1.9 dice: 
 ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46885
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46886
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:46898
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47037
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47110
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47168
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47169
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47181
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47182
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47183
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47220
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47221
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47227
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47228
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47229
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47230
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47232
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47233
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47331
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47332
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47333
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47430
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47431
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47432
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47470
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47507
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47508
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47509
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47510
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+ERROR   | Errore durante la connessione al database: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 111] Connection refused)")
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47513
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47717
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47718
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47721
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47724
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47732
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47735
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47738
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47827
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47843
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47846
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47849
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47850
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47853
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47854
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47855
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47858
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47886
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47887
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47890
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47891
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47892
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47895
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47896
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47897
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47900
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47901
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47902
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47905
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47906
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47970
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47971
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"9eed5334e4388924054a9fb71ba812fc"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47972
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47975
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47976
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"a","sPassword":"d7afde3e7059cd0a0fe09eec4b0008cd"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47977
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47980
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47981
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47982
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47985
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47986
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"a","sPassword":"d7afde3e7059cd0a0fe09eec4b0008cd"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47987
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47990
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"a","sPassword":"d7afde3e7059cd0a0fe09eec4b0008cd"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47993
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47996
+DEBUG   | 192.168.1.9 dice: 
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47997
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:47998
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48001
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48004
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48007
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48010
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48013
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48016
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48019
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48022
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48025
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48028
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"dfasdf","sPassword":"dd44cdc68dd2ca30d640f868885f1ebc"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48031
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdgfasdg","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48034
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdgfasdg","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48037
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdgfasdg","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48040
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdgfasdg","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48043
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdgfasdg","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48046
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdgfasdg","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48049
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48052
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"72e53c32d16b8e2a1462cd824c4fc887"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48055
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48058
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48059
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"2ffeba6da5a322ec3bd818827a086609"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48060
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48063
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48066
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48067
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48070
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48071
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48072
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48075
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48076
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48081
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48084
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48085
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48088
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48091
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"c2fe3d7088f1424ee6f265e923b67c80"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48094
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"adsf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48097
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"asdf","sPassword":"5259ee4a034fdeddd1b65be92debe731"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48115
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lol","sPassword":"ec0e60929ec1dddae97fd87b301304ce"}
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48118
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48133
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48136
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | Richiesta elaborata correttamente
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48141
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: {"sComando":"GETUSERNAME","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48146
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: {"sComando":"GETUSERNAME","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48151
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48154
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: {"sComando":"GETUSERNAME","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48159
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: {"sComando":"GETUSERNAME","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48164
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta
+DEBUG   | Elaboro richiesta da: 192.168.1.9:48167
+DEBUG   | 192.168.1.9 dice: {"sComando":"LOGIN","sUser":"lucabertoni","sPassword":"b9be11166d72e9e3ae7fd407165e4bd2"}
+INFO    | Effettuo login con cookie: 28c8edde3d61a041121511d3b1866f0636
+DEBUG   | 192.168.1.9 dice: {"sComando":"GETUSERNAME","sCookie":"28c8edde3d61a041121511d3b1866f0636"}
+DEBUG   | 192.168.1.9 dice: 
+ERROR   | Errore durante l'elaborazione della richiesta

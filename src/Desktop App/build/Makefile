@@ -49,26 +49,24 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../laserNotes/main.cpp \
-		../laserNotes/lasernotes.cpp \
 		../laserNotes/client.cpp \
 		../laserNotes/user.cpp \
 		../laserNotes/login.cpp \
 		../laserNotes/lnsocket.cpp \
-		../laserNotes/common.cpp \
-		../laserNotes/md5.cpp qrc_resource.cpp \
-		moc_lasernotes.cpp \
-		moc_login.cpp
+		../laserNotes/md5.cpp \
+		../laserNotes/home.cpp qrc_resource.cpp \
+		moc_login.cpp \
+		moc_home.cpp
 OBJECTS       = main.o \
-		lasernotes.o \
 		client.o \
 		user.o \
 		login.o \
 		lnsocket.o \
-		common.o \
 		md5.o \
+		home.o \
 		qrc_resource.o \
-		moc_lasernotes.o \
-		moc_login.o
+		moc_login.o \
+		moc_home.o
 DIST          = /opt/Qt5.5.1/5.5/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt5.5.1/5.5/gcc_64/mkspecs/common/unix.conf \
 		/opt/Qt5.5.1/5.5/gcc_64/mkspecs/common/linux.conf \
@@ -205,18 +203,49 @@ DIST          = /opt/Qt5.5.1/5.5/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt5.5.1/5.5/gcc_64/mkspecs/features/lex.prf \
 		../laserNotes/laserNotes.pro ../laserNotes/client.h \
 		../laserNotes/user.h \
-		../laserNotes/lasernotes.h \
 		../laserNotes/login.h \
 		../laserNotes/lnsocket.h \
-		../laserNotes/common.h \
-		../laserNotes/md5.h ../laserNotes/main.cpp \
-		../laserNotes/lasernotes.cpp \
+		../laserNotes/md5.h \
+		../laserNotes/include/rapidjson/rapidjson.h \
+		../laserNotes/include/rapidjson/error/en.h \
+		../laserNotes/include/rapidjson/error/error.h \
+		../laserNotes/include/rapidjson/internal/biginteger.h \
+		../laserNotes/include/rapidjson/internal/diyfp.h \
+		../laserNotes/include/rapidjson/internal/dtoa.h \
+		../laserNotes/include/rapidjson/internal/ieee754.h \
+		../laserNotes/include/rapidjson/internal/itoa.h \
+		../laserNotes/include/rapidjson/internal/meta.h \
+		../laserNotes/include/rapidjson/internal/pow10.h \
+		../laserNotes/include/rapidjson/internal/regex.h \
+		../laserNotes/include/rapidjson/internal/stack.h \
+		../laserNotes/include/rapidjson/internal/strfunc.h \
+		../laserNotes/include/rapidjson/internal/strtod.h \
+		../laserNotes/include/rapidjson/internal/swap.h \
+		../laserNotes/include/rapidjson/msinttypes/inttypes.h \
+		../laserNotes/include/rapidjson/msinttypes/stdint.h \
+		../laserNotes/include/rapidjson/allocators.h \
+		../laserNotes/include/rapidjson/document.h \
+		../laserNotes/include/rapidjson/encodedstream.h \
+		../laserNotes/include/rapidjson/encodings.h \
+		../laserNotes/include/rapidjson/filereadstream.h \
+		../laserNotes/include/rapidjson/filewritestream.h \
+		../laserNotes/include/rapidjson/fwd.h \
+		../laserNotes/include/rapidjson/memorybuffer.h \
+		../laserNotes/include/rapidjson/memorystream.h \
+		../laserNotes/include/rapidjson/pointer.h \
+		../laserNotes/include/rapidjson/prettywriter.h \
+		../laserNotes/include/rapidjson/reader.h \
+		../laserNotes/include/rapidjson/schema.h \
+		../laserNotes/include/rapidjson/stream.h \
+		../laserNotes/include/rapidjson/stringbuffer.h \
+		../laserNotes/include/rapidjson/writer.h \
+		../laserNotes/home.h ../laserNotes/main.cpp \
 		../laserNotes/client.cpp \
 		../laserNotes/user.cpp \
 		../laserNotes/login.cpp \
 		../laserNotes/lnsocket.cpp \
-		../laserNotes/common.cpp \
-		../laserNotes/md5.cpp
+		../laserNotes/md5.cpp \
+		../laserNotes/home.cpp
 QMAKE_TARGET  = laserNotes
 DESTDIR       = #avoid trailing-slash linebreak
 TARGET        = laserNotes
@@ -244,7 +273,7 @@ first: all
 
 ####### Build rules
 
-$(TARGET): ui_lasernotes.h ui_login.h $(OBJECTS)  
+$(TARGET): ui_login.h ui_home.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: ../laserNotes/laserNotes.pro /opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++/qmake.conf /opt/Qt5.5.1/5.5/gcc_64/mkspecs/features/spec_pre.prf \
@@ -541,9 +570,9 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../laserNotes/resource.qrc $(DISTDIR)/
-	$(COPY_FILE) --parents ../laserNotes/client.h ../laserNotes/user.h ../laserNotes/lasernotes.h ../laserNotes/login.h ../laserNotes/lnsocket.h ../laserNotes/common.h ../laserNotes/md5.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../laserNotes/main.cpp ../laserNotes/lasernotes.cpp ../laserNotes/client.cpp ../laserNotes/user.cpp ../laserNotes/login.cpp ../laserNotes/lnsocket.cpp ../laserNotes/common.cpp ../laserNotes/md5.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../laserNotes/lasernotes.ui ../laserNotes/login.ui $(DISTDIR)/
+	$(COPY_FILE) --parents ../laserNotes/client.h ../laserNotes/user.h ../laserNotes/login.h ../laserNotes/lnsocket.h ../laserNotes/md5.h ../laserNotes/include/rapidjson/rapidjson.h ../laserNotes/include/rapidjson/error/en.h ../laserNotes/include/rapidjson/error/error.h ../laserNotes/include/rapidjson/internal/biginteger.h ../laserNotes/include/rapidjson/internal/diyfp.h ../laserNotes/include/rapidjson/internal/dtoa.h ../laserNotes/include/rapidjson/internal/ieee754.h ../laserNotes/include/rapidjson/internal/itoa.h ../laserNotes/include/rapidjson/internal/meta.h ../laserNotes/include/rapidjson/internal/pow10.h ../laserNotes/include/rapidjson/internal/regex.h ../laserNotes/include/rapidjson/internal/stack.h ../laserNotes/include/rapidjson/internal/strfunc.h ../laserNotes/include/rapidjson/internal/strtod.h ../laserNotes/include/rapidjson/internal/swap.h ../laserNotes/include/rapidjson/msinttypes/inttypes.h ../laserNotes/include/rapidjson/msinttypes/stdint.h ../laserNotes/include/rapidjson/allocators.h ../laserNotes/include/rapidjson/document.h ../laserNotes/include/rapidjson/encodedstream.h ../laserNotes/include/rapidjson/encodings.h ../laserNotes/include/rapidjson/filereadstream.h ../laserNotes/include/rapidjson/filewritestream.h ../laserNotes/include/rapidjson/fwd.h ../laserNotes/include/rapidjson/memorybuffer.h ../laserNotes/include/rapidjson/memorystream.h ../laserNotes/include/rapidjson/pointer.h ../laserNotes/include/rapidjson/prettywriter.h ../laserNotes/include/rapidjson/reader.h ../laserNotes/include/rapidjson/schema.h ../laserNotes/include/rapidjson/stream.h ../laserNotes/include/rapidjson/stringbuffer.h ../laserNotes/include/rapidjson/writer.h ../laserNotes/home.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../laserNotes/main.cpp ../laserNotes/client.cpp ../laserNotes/user.cpp ../laserNotes/login.cpp ../laserNotes/lnsocket.cpp ../laserNotes/md5.cpp ../laserNotes/home.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../laserNotes/login.ui ../laserNotes/home.ui $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -574,120 +603,9 @@ qrc_resource.cpp: ../laserNotes/resource.qrc \
 		../laserNotes/icons/ic_arrow_forward_white_18dp.png
 	/opt/Qt5.5.1/5.5/gcc_64/bin/rcc -name resource ../laserNotes/resource.qrc -o qrc_resource.cpp
 
-compiler_moc_header_make_all: moc_lasernotes.cpp moc_login.cpp
+compiler_moc_header_make_all: moc_login.cpp moc_home.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_lasernotes.cpp moc_login.cpp
-moc_lasernotes.cpp: /opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobal.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qconfig.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfeatures.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsystemdetection.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qprocessordetection.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcompilerdetection.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypeinfo.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypetraits.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsysinfo.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlogging.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qflags.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbasicatomic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_bootstrap.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qgenericatomic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_cxx11.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_gcc.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_msvc.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv7.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv6.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv5.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_ia64.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_mips.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_x86.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_unix.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobalstatic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmutex.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnumeric.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnamespace.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs_win.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstring.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qchar.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearray.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrefcount.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qarraydata.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringbuilder.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlist.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qalgorithms.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiterator.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearraylist.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringlist.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qregexp.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringmatcher.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcoreevent.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qscopedpointer.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmetatype.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvarlengtharray.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontainerfwd.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qisenum.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject_impl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmargins.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpaintdevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrect.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsize.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpoint.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpalette.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcolor.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qrgb.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qbrush.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpair.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvector.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qmatrix.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpolygon.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qregion.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdatastream.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiodevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qline.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtransform.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpainterpath.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qimage.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixelformat.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixmap.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qshareddata.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qhash.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfont.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontmetrics.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontinfo.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qsizepolicy.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcursor.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qkeysequence.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qevent.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvariant.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmap.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdebug.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtextstream.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlocale.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qset.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontiguouscache.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurlquery.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfile.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfiledevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qvector2d.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtouchdevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qicon.h \
-		../laserNotes/client.h \
-		../laserNotes/user.h \
-		../laserNotes/lnsocket.h \
-		../laserNotes/lasernotes.h
-	/opt/Qt5.5.1/5.5/gcc_64/bin/moc $(DEFINES) -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -I'/home/luca/Scrivania/git/laserNotes/src/Desktop App/laserNotes' -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -I. ../laserNotes/lasernotes.h -o moc_lasernotes.cpp
-
+	-$(DEL_FILE) moc_login.cpp moc_home.cpp
 moc_login.cpp: /opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
@@ -799,16 +717,127 @@ moc_login.cpp: /opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
 		../laserNotes/login.h
 	/opt/Qt5.5.1/5.5/gcc_64/bin/moc $(DEFINES) -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -I'/home/luca/Scrivania/git/laserNotes/src/Desktop App/laserNotes' -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -I. ../laserNotes/login.h -o moc_login.cpp
 
+moc_home.cpp: /opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobal.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qconfig.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfeatures.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsystemdetection.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qprocessordetection.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcompilerdetection.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypeinfo.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypetraits.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsysinfo.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlogging.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qflags.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbasicatomic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qgenericatomic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_gcc.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_msvc.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv7.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv6.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv5.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_ia64.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_mips.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_x86.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_unix.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobalstatic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmutex.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnumeric.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnamespace.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs_win.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstring.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qchar.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearray.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrefcount.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qarraydata.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringbuilder.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlist.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qalgorithms.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiterator.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearraylist.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringlist.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qregexp.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringmatcher.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcoreevent.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qscopedpointer.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmetatype.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvarlengtharray.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontainerfwd.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qisenum.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject_impl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmargins.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpaintdevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrect.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsize.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpoint.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpalette.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcolor.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qrgb.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qbrush.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpair.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvector.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qmatrix.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpolygon.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qregion.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdatastream.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiodevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qline.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtransform.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpainterpath.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qimage.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixelformat.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixmap.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qshareddata.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qhash.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfont.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontmetrics.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontinfo.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcursor.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qkeysequence.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qevent.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvariant.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmap.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdebug.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtextstream.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlocale.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qset.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontiguouscache.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurlquery.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfile.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfiledevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qvector2d.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtouchdevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qicon.h \
+		../laserNotes/client.h \
+		../laserNotes/user.h \
+		../laserNotes/lnsocket.h \
+		../laserNotes/home.h
+	/opt/Qt5.5.1/5.5/gcc_64/bin/moc $(DEFINES) -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -I'/home/luca/Scrivania/git/laserNotes/src/Desktop App/laserNotes' -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -I. ../laserNotes/home.h -o moc_home.cpp
+
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_lasernotes.h ui_login.h
+compiler_uic_make_all: ui_login.h ui_home.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_lasernotes.h ui_login.h
-ui_lasernotes.h: ../laserNotes/lasernotes.ui
-	/opt/Qt5.5.1/5.5/gcc_64/bin/uic ../laserNotes/lasernotes.ui -o ui_lasernotes.h
-
+	-$(DEL_FILE) ui_login.h ui_home.h
 ui_login.h: ../laserNotes/login.ui
 	/opt/Qt5.5.1/5.5/gcc_64/bin/uic ../laserNotes/login.ui -o ui_login.h
+
+ui_home.h: ../laserNotes/home.ui
+	/opt/Qt5.5.1/5.5/gcc_64/bin/uic ../laserNotes/home.ui -o ui_home.h
 
 compiler_yacc_decl_make_all:
 compiler_yacc_decl_clean:
@@ -820,7 +849,7 @@ compiler_clean: compiler_rcc_clean compiler_moc_header_clean compiler_uic_clean
 
 ####### Compile
 
-main.o: ../laserNotes/main.cpp ../laserNotes/lasernotes.h \
+main.o: ../laserNotes/main.cpp ../laserNotes/home.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
@@ -941,160 +970,31 @@ main.o: ../laserNotes/main.cpp ../laserNotes/lasernotes.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QDesktopWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../laserNotes/main.cpp
 
-lasernotes.o: ../laserNotes/lasernotes.cpp ../laserNotes/lasernotes.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobal.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qconfig.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfeatures.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsystemdetection.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qprocessordetection.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcompilerdetection.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypeinfo.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypetraits.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsysinfo.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlogging.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qflags.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbasicatomic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_bootstrap.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qgenericatomic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_cxx11.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_gcc.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_msvc.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv7.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv6.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv5.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_ia64.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_mips.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_x86.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_unix.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobalstatic.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmutex.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnumeric.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnamespace.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs_win.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstring.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qchar.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearray.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrefcount.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qarraydata.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringbuilder.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlist.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qalgorithms.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiterator.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearraylist.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringlist.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qregexp.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringmatcher.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcoreevent.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qscopedpointer.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmetatype.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvarlengtharray.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontainerfwd.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qisenum.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject_impl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmargins.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpaintdevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrect.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsize.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpoint.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpalette.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcolor.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qrgb.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qbrush.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpair.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvector.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qmatrix.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpolygon.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qregion.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdatastream.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiodevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qline.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtransform.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpainterpath.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qimage.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixelformat.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixmap.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qshareddata.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qhash.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfont.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontmetrics.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontinfo.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qsizepolicy.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcursor.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qkeysequence.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qevent.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvariant.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmap.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdebug.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtextstream.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlocale.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qset.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontiguouscache.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurl.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurlquery.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfile.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfiledevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qvector2d.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtouchdevice.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qicon.h \
-		../laserNotes/client.h \
-		../laserNotes/user.h \
-		../laserNotes/lnsocket.h \
-		ui_lasernotes.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/QVariant \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QAction \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qaction.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qactiongroup.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QApplication \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qapplication.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcoreapplication.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qeventloop.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qdesktopwidget.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qguiapplication.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qinputmethod.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QButtonGroup \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qbuttongroup.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QFrame \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qframe.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QHeaderView \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qheaderview.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractitemview.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qabstractitemmodel.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qitemselectionmodel.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstyleoption.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractspinbox.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qvalidator.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qregularexpression.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qslider.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractslider.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstyle.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtabbar.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qrubberband.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QLabel \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qlabel.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QPushButton \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qpushbutton.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QWidget
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o lasernotes.o ../laserNotes/lasernotes.cpp
-
 client.o: ../laserNotes/client.cpp ../laserNotes/client.h \
 		../laserNotes/user.h \
-		../laserNotes/lnsocket.h
+		../laserNotes/lnsocket.h \
+		../laserNotes/include/rapidjson/rapidjson.h \
+		../laserNotes/include/rapidjson/msinttypes/stdint.h \
+		../laserNotes/include/rapidjson/msinttypes/inttypes.h \
+		../laserNotes/include/rapidjson/document.h \
+		../laserNotes/include/rapidjson/reader.h \
+		../laserNotes/include/rapidjson/allocators.h \
+		../laserNotes/include/rapidjson/stream.h \
+		../laserNotes/include/rapidjson/encodings.h \
+		../laserNotes/include/rapidjson/internal/meta.h \
+		../laserNotes/include/rapidjson/internal/stack.h \
+		../laserNotes/include/rapidjson/internal/swap.h \
+		../laserNotes/include/rapidjson/internal/strtod.h \
+		../laserNotes/include/rapidjson/internal/ieee754.h \
+		../laserNotes/include/rapidjson/internal/biginteger.h \
+		../laserNotes/include/rapidjson/internal/diyfp.h \
+		../laserNotes/include/rapidjson/internal/pow10.h \
+		../laserNotes/include/rapidjson/error/error.h \
+		../laserNotes/include/rapidjson/internal/strfunc.h \
+		../laserNotes/include/rapidjson/writer.h \
+		../laserNotes/include/rapidjson/internal/dtoa.h \
+		../laserNotes/include/rapidjson/internal/itoa.h \
+		../laserNotes/include/rapidjson/stringbuffer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o client.o ../laserNotes/client.cpp
 
 user.o: ../laserNotes/user.cpp ../laserNotes/user.h
@@ -1253,31 +1153,142 @@ login.o: ../laserNotes/login.cpp ui_login.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmessagebox.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qdialog.h \
 		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/QString \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/QRect \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QDesktopWidget \
 		../laserNotes/md5.h \
 		../laserNotes/login.h \
 		../laserNotes/client.h \
 		../laserNotes/user.h \
 		../laserNotes/lnsocket.h \
-		../laserNotes/common.h
+		../laserNotes/home.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o login.o ../laserNotes/login.cpp
 
 lnsocket.o: ../laserNotes/lnsocket.cpp ../laserNotes/lnsocket.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o lnsocket.o ../laserNotes/lnsocket.cpp
 
-common.o: ../laserNotes/common.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o common.o ../laserNotes/common.cpp
-
 md5.o: ../laserNotes/md5.cpp ../laserNotes/md5.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o md5.o ../laserNotes/md5.cpp
+
+home.o: ../laserNotes/home.cpp ../laserNotes/home.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobal.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qconfig.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfeatures.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsystemdetection.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qprocessordetection.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcompilerdetection.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypeinfo.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtypetraits.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsysinfo.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlogging.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qflags.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbasicatomic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qgenericatomic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_gcc.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_msvc.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv7.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv6.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_armv5.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_ia64.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_mips.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_x86.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qatomic_unix.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qglobalstatic.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmutex.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnumeric.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qnamespace.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs_win.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstring.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qchar.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearray.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrefcount.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qarraydata.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringbuilder.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlist.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qalgorithms.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiterator.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearraylist.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringlist.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qregexp.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qstringmatcher.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcoreevent.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qscopedpointer.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmetatype.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvarlengtharray.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontainerfwd.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qisenum.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qobject_impl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmargins.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpaintdevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qrect.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsize.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpoint.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpalette.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcolor.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qrgb.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qbrush.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qpair.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvector.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qmatrix.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpolygon.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qregion.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdatastream.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qiodevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qline.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtransform.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpainterpath.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qimage.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixelformat.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qpixmap.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qshareddata.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qhash.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfont.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontmetrics.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qfontinfo.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qcursor.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qkeysequence.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qevent.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qvariant.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qmap.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qdebug.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qtextstream.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qlocale.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qset.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qcontiguouscache.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurl.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qurlquery.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfile.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtCore/qfiledevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qvector2d.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qtouchdevice.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
+		/opt/Qt5.5.1/5.5/gcc_64/include/QtGui/qicon.h \
+		../laserNotes/client.h \
+		../laserNotes/user.h \
+		../laserNotes/lnsocket.h \
+		ui_home.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o home.o ../laserNotes/home.cpp
 
 qrc_resource.o: qrc_resource.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_resource.o qrc_resource.cpp
 
-moc_lasernotes.o: moc_lasernotes.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_lasernotes.o moc_lasernotes.cpp
-
 moc_login.o: moc_login.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_login.o moc_login.cpp
+
+moc_home.o: moc_home.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_home.o moc_home.cpp
 
 ####### Install
 

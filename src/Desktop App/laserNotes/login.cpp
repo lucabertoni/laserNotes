@@ -1,12 +1,14 @@
 #include "ui_login.h"
 #include <QMessageBox>
 #include <QString>
+#include <QRect>
+#include <QDesktopWidget>
+
 #include "md5.h"
 
 #include "login.h"
-#include "common.h"
+#include "home.h"
 
-#include <stdio.h> // TODO: Togliere
 Login::Login(QWidget *parent) : QMainWindow(parent), ui(new Ui::Login){
     bool bConnected;
     QMessageBox oMsgBox;
@@ -38,17 +40,21 @@ Login::~Login()
     /*
      * Cosa fa          :           Si disconnette al server
     */
-    this->oClient->diconnect();
+    this->oClient->disconnect();
     delete oClient;
     delete ui;
 }
 
 void Login::on_pushButton_clicked(){
-    string sUsername, sPassword;
+    string sUsername, sPassword, sCookie;
+    Home *window;
     QMessageBox oMsgBox;
+    float x,y;
 
     sUsername = this->ui->entryfieldUsername->text().toStdString();
-    sPassword = md5(md5(this->ui->entryfieldPassword->text().toStdString().c_str()));
+    sPassword = this->ui->entryfieldPassword->text().toStdString();
+
+    sCookie = "";
 
     if(sUsername == "" || sPassword == ""){
         oMsgBox.setIcon(QMessageBox::Warning);
@@ -58,6 +64,7 @@ void Login::on_pushButton_clicked(){
         oMsgBox.setStyleSheet("background-color:white;color:black");
         oMsgBox.exec();
     }else{
+        sPassword = md5(md5(this->ui->entryfieldPassword->text().toStdString().c_str()));
         /*
          * Cosa fa          :           Effettua il login al server.
          * username         :           stringa, username da utilizzare per effettuare l'accesso
@@ -65,6 +72,34 @@ void Login::on_pushButton_clicked(){
          *
          * Ritorna          :           sCookie -> stringa, cookie con il quale eseguire le operazioni. "" = Errore login
         */
-        this->oClient->login(sUsername, sPassword);
+        sCookie = this->oClient->login(sUsername, sPassword);
+
+        // Se il cookie non è vuoto significa che il login ha avuto successo
+        if(sCookie != ""){
+
+            /*
+             * Cosa fa          :           Imposta il cookie da usare per lo scambio di dati
+             * sCookie          :           stringa, cookie da usare
+            */
+            this->oClient->setCookie(sCookie);
+
+            /*
+             * Cosa fa              :               Crea la classe sulla base di una connessione con il server prestabilita
+             * oClient              :               Client, oggetto client con vari settings(cookie,...) e con socket aperta verso il server
+            */
+            window = new Home(0, oClient);
+
+            // Centro la finestra sullo schermo
+            QRect screenGeometry = QApplication::desktop()->screenGeometry();
+            x = (screenGeometry.width()-window->width()) / 2;
+            y = (screenGeometry.height()-window->height()) / 2;
+            window->move(x, y);
+            window->show();
+
+            this->close();
+        }else{
+            this->oClient->disconnect();
+            this->oClient->connect();
+        }
     }
 }

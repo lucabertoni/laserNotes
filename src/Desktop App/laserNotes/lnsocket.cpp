@@ -5,7 +5,7 @@
 /*----------  Librerie di sistema  ----------*/
 #include <strings.h>
 #include <stdlib.h>
-
+#include <string.h>         // strlen()
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
@@ -15,6 +15,7 @@
 /*----------  Librerie definite dal programmatore  ----------*/
 #include "lnsocket.h"
 
+#include <stdio.h>
 /*=====  End of INCLUSIONI  ======*/
 
 /*================================================
@@ -126,4 +127,33 @@ void Socket::closeSocket(){
     close(this->sock);
     return;
 }
+
+/*
+ * Cosa fa          :           Scrive sulla socket
+ * message          :           stringa, testo da scrivere sulla socket
+*/
+void Socket::write_buffer(string pr_buffer){
+    int buffer_len;
+    const char *buffer;
+
+    buffer = pr_buffer.c_str();
+    buffer_len = strlen(buffer);
+
+    write(this->sock,buffer,buffer_len);
+
+}
+
+/*
+ * Cosa fa          :           Legge dalla socket
+ * Ritorna          :           sRet -> stringa, buffer letto dalla socket
+*/
+string Socket::read_buffer(){
+    char buffer[_MAX_BUFFER_SIZE];
+
+    read(this->sock,buffer,_MAX_BUFFER_SIZE);
+
+    string sRet(buffer);
+    return sRet;
+}
+
 /*=====  End of IMPLEMENTAZIONI FUNZIONI  ======*/

@@ -1,4 +1,4 @@
-#include "lasernotes.h"
+#include "home.h"
 #include "login.h"
 #include <QApplication>
 #include <QRect>
@@ -7,9 +7,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    //laserNotes w;
     Login w;
-    int x,y;
+    float x,y;
 
     // Centro la finestra sullo schermo
     QRect screenGeometry = QApplication::desktop()->screenGeometry();

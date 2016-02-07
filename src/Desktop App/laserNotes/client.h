@@ -6,12 +6,17 @@
 #include "user.h"   // File che definisce la classe per la gestione dell'utente
 #include "lnsocket.h"
 
+#define _RESULT_OK              "OK"
+#define _GETUSERNAME_COMMAND    "GETUSERNAME"
+#define _LOGIN_COMMAND          "LOGIN"
+
 using namespace std;
 
 class Client
 {
 private:
     Socket *oSocket;
+    string sCookie;
 
 public:
     /*
@@ -39,12 +44,30 @@ public:
     /*
      * Cosa fa          :           Si disconnette al server
     */
-    void diconnect();
+    void disconnect();
 
     /*
      * Cosa fa         :           Rilascia dalla memoria le risorse che ha allocato
     */
     ~Client();
+
+    /*
+     * Cosa fa          :           Imposta il cookie da usare per lo scambio di dati
+     * sCookie          :           stringa, cookie da usare
+    */
+    void setCookie(string sCookie);
+
+    /*
+     * Cosa fa          :           Estrae il cookie impostato
+     * Ritorna          :           stringa, cookie attualmente in uso
+    */
+    string getCookie();
+
+    /*
+     * Cosa fa          :           Richiede al server l'username dell'utente
+     * Ritorna          :           sUsername -> stringa, username dell'utente
+    */
+    string getUsername();
 };
 
 #endif // CLIENT_H

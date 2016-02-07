@@ -17,6 +17,8 @@
         /*----------  Librerie definite dal programmatore  ----------*/
                 /*=====  End of INCLUSIONI  ======*/
 
+#define _MAX_BUFFER_SIZE    1024
+
 using namespace std;
 
 class Socket
@@ -88,6 +90,18 @@ public:
      * Cosa fa          :           Chiude la comunicazione
     */
     void closeSocket();
+
+    /*
+     * Cosa fa          :           Scrive sulla socket
+     * message          :           stringa, testo da scrivere sulla socket
+    */
+    void write_buffer(string buffer);
+
+    /*
+     * Cosa fa          :           Legge dalla socket
+     * Ritorna          :           sRet -> stringa, buffer letto dalla socket
+    */
+    string read_buffer();
 
                 /*=====  End of PROTOTIPI  ======*/
 };

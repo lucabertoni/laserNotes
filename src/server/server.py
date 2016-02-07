@@ -18,7 +18,6 @@ while 1:
 		else:
 			LogBuffer.write("Richiesta elaborata correttamente",4)
 
-
 		# Termino l'esecuzione del processo
 		os._exit(0)
 	else:

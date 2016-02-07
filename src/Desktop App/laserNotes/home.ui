@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>laserNotes</class>
- <widget class="QMainWindow" name="laserNotes">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
   <property name="enabled">
    <bool>true</bool>
   </property>
